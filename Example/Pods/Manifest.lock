@@ -1,0 +1,20 @@
+PODS:
+  - PXCamera (0.1.3):
+    - PXPinnedRotation
+    - SVProgressHUD (~> 1.0)
+  - PXPinnedRotation (0.1.3)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - PXCamera (from `../`)
+
+EXTERNAL SOURCES:
+  PXCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXCamera: 0d2d77cff1f8eb6b882bdca36b5863d6270384f0
+  PXPinnedRotation: 44d23d18c495b91a35ef69dacae9c566afe01bb9
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.38.2

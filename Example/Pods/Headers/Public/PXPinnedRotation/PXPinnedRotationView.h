@@ -1,0 +1,1 @@
+../../../PXPinnedRotation/Pod/Classes/PXPinnedRotationView.h
