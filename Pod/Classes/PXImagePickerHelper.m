@@ -59,6 +59,7 @@ static inline UIImage* getNormalizedImage(UIImage* originalImage);
 {
     self = [super init];
     if (self) {
+        _tintColor = [UIColor blackColor];
         [self setImagePickerController:[[UIImagePickerController alloc] init]];
         [[self imagePickerController] setDelegate:self];
     }
