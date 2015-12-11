@@ -32,7 +32,7 @@
 #import "PXLibraryButton.h"
 #import "PXCameraGridLayer.h"
 
-#import "PXPinnedRotationView.h"
+#import <PXPinnedRotation/PXPinnedRotationView.h>
 
 typedef NS_ENUM(NSInteger, PXCameraViewType) { // NSAlrightyThen
     PXCameraViewTypeCamera = 0,
