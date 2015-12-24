@@ -22,6 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		652644941C2B1B7500FC6875 /* PXCustomCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652644931C2B1B7500FC6875 /* PXCustomCameraView.m */; };
+		652644971C2B1B8300FC6875 /* PXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652644961C2B1B8300FC6875 /* PXCustomCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		609D2788D7A5F33A16626849 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		652644921C2B1B7500FC6875 /* PXCustomCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCustomCameraView.h; sourceTree = "<group>"; };
+		652644931C2B1B7500FC6875 /* PXCustomCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCustomCameraView.m; sourceTree = "<group>"; };
+		652644951C2B1B8300FC6875 /* PXCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCustomCameraViewController.h; sourceTree = "<group>"; };
+		652644961C2B1B8300FC6875 /* PXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCustomCameraViewController.m; sourceTree = "<group>"; };
 		7C03F02B43C38B090298F628 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E6CCE4A0408B16F0D60FA8 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		971FB91B3A173F3AE339D06E /* Pods-PXCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXCamera/Pods-PXCamera.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +149,10 @@
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PXExampleViewController.h */,
 				6003F5A6195388D20070C39A /* PXExampleViewController.m */,
+				652644951C2B1B8300FC6875 /* PXCustomCameraViewController.h */,
+				652644961C2B1B8300FC6875 /* PXCustomCameraViewController.m */,
+				652644921C2B1B7500FC6875 /* PXCustomCameraView.h */,
+				652644931C2B1B7500FC6875 /* PXCustomCameraView.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -355,6 +365,8 @@
 			files = (
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXExampleViewController.m in Sources */,
+				652644941C2B1B7500FC6875 /* PXCustomCameraView.m in Sources */,
+				652644971C2B1B8300FC6875 /* PXCustomCameraViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

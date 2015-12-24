@@ -34,8 +34,6 @@
 
 @interface PXCameraViewController : PXPinnedRotationViewController
 
-@property (nonatomic, strong) AVCaptureVideoPreviewLayer *captureVideoPreviewLayer;
-
 + (PXCameraViewController*)sharedCamera;
 
 /**

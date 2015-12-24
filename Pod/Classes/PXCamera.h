@@ -59,7 +59,7 @@ typedef NS_ENUM(NSInteger, PXCameraImageSource){
 };
 
 /**
- *  Central class for interfacing with all the various image classe (camera, library, web).
+ *  Central class for interfacing with all the various image classes (camera, library).
  */
 @interface PXCamera : NSObject
 
@@ -69,7 +69,7 @@ typedef NS_ENUM(NSInteger, PXCameraImageSource){
 + (instancetype)camera;
 
 #pragma mark - Configurable Properties
-#pragma mark Library
+#pragma mark Photo Library
 
 /**
  *  The color used for the buttons and titles in the navigation bars. 

@@ -27,26 +27,41 @@
 #import "PXCameraDisplayView.h"
 
 #import "PXCameraGridLayer.h"
+#import "PXCameraCaptureManager.h"
 
 @implementation PXCameraDisplayView
 {
     PXCameraGridLayer * _gridLayer;
+    
+    UIView * _cameraPreview;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:(CGRect)frame];
     if (self) {
+        [self setClipsToBounds:TRUE];
+        
+        _cameraPreview = [[PXCameraCaptureManager captureManager] cameraPreviewView];
+        [_cameraPreview setTranslatesAutoresizingMaskIntoConstraints:FALSE];
+        [self addSubview:_cameraPreview];
+        
         _gridLayer = [[PXCameraGridLayer alloc] init];
-//        [_gridLayer setZPosition:10];
         [_gridLayer setSpeed:1000];
         [[self layer] addSublayer:_gridLayer];
+        
+        NSDictionary* views = NSDictionaryOfVariableBindings(_cameraPreview);
+        NSDictionary* metrics = @{};
+        
+        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
+        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
     }
     return self;
 }
 
 - (void)layoutSublayersOfLayer:(CALayer *)layer
 {
+    [super layoutSublayersOfLayer:layer];
     [_gridLayer setFrame:[layer bounds]];
 }
 

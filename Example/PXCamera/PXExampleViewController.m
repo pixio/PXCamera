@@ -10,6 +10,8 @@
 
 #import <PXCamera/PXCamera.h>
 
+#import "PXCustomCameraViewController.h"
+
 @interface PXExampleViewController ()
 
 @end
@@ -18,6 +20,7 @@
 {
     UIButton * _cameraButton;
     UIButton * _libraryButton;
+    UIButton * _customCameraButton;
 }
 
 - (void)viewDidLoad
@@ -41,15 +44,24 @@
     [[self view] addSubview:_libraryButton];
     [_libraryButton addTarget:self action:@selector(libraryPressed) forControlEvents:UIControlEventTouchUpInside];
     
-    NSDictionary * views = NSDictionaryOfVariableBindings(_cameraButton, _libraryButton);
-    NSDictionary * metrics = @{@"bw" : @(120), @"bh" : @(50), @"sp" : @(10)};
+    _customCameraButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_customCameraButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [_customCameraButton setTitle:@"Use Custom Camera" forState:UIControlStateNormal];
+    [_customCameraButton setTranslatesAutoresizingMaskIntoConstraints:FALSE];
+    [[self view] addSubview:_customCameraButton];
+    [_customCameraButton addTarget:self action:@selector(customCameraPressed) forControlEvents:UIControlEventTouchUpInside];
+    
+    NSDictionary * views = NSDictionaryOfVariableBindings(_cameraButton, _libraryButton, _customCameraButton);
+    NSDictionary * metrics = @{@"bw" : @(180), @"bh" : @(50), @"sp" : @(10)};
     
     [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[_cameraButton(bw)]" options:0 metrics:metrics views:views]];
     [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[_libraryButton(bw)]" options:0 metrics:metrics views:views]];
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[_customCameraButton(bw)]" options:0 metrics:metrics views:views]];
     [[self view] addConstraint:[NSLayoutConstraint constraintWithItem:_cameraButton attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:[self view] attribute:NSLayoutAttributeCenterX multiplier:1.0f constant:0.0f]];
     [[self view] addConstraint:[NSLayoutConstraint constraintWithItem:_libraryButton attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:[self view] attribute:NSLayoutAttributeCenterX multiplier:1.0f constant:0.0f]];
+    [[self view] addConstraint:[NSLayoutConstraint constraintWithItem:_customCameraButton attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:[self view] attribute:NSLayoutAttributeCenterX multiplier:1.0f constant:0.0f]];
     
-    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[_cameraButton(bh)]-sp-[_libraryButton(bh)]" options:0 metrics:metrics views:views]];
+    [[self view] addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[_cameraButton(bh)]-sp-[_libraryButton(bh)]-sp-[_customCameraButton(bh)]" options:0 metrics:metrics views:views]];
     [[self view] addConstraint:[NSLayoutConstraint constraintWithItem:_libraryButton attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:[self view] attribute:NSLayoutAttributeCenterY multiplier:1.0f constant:0.0f]];
 }
 
@@ -65,6 +77,11 @@
     [[PXCamera camera] getImageInViewController:self interface:PXCameraInterfaceLibrary completion:^(UIImage * image, PXCameraImageSource source) {
         NSLog(@"L: %@", image);
     }];
+}
+
+- (void)customCameraPressed
+{
+    [[self navigationController] pushViewController:[[PXCustomCameraViewController alloc] init] animated:TRUE];
 }
 
 - (void)didReceiveMemoryWarning

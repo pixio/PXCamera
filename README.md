@@ -20,6 +20,8 @@ Get images from the camera or photo library with one call.  No delegates, no ini
 }];
 ```
 
+If you want to get a little bit more hands-on and make your own custom camera interface but don't want to manage all the hassle of AVFoundation, check out `PXCameraCaptureManager`.  This singleton provides a readonly `UIView` property `cameraPreviewView` that displays live camera output.  From there, you can connect your custom UI to the other methods in the interface that allow you to control the various aspects of the camera (flash mode, preview orientation, front -facing or back-facing camera).  Check out the `PXCustomCameraViewController` in the example project for a really basic example.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation

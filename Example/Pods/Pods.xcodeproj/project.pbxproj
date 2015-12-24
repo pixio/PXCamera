@@ -40,6 +40,8 @@
 		5D5012B571F5CE2CEB3759F65588AA81 /* PXCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D436BA786841EB2763D136628F7126 /* PXCameraButton.h */; };
 		5DF15C5ED28BC93AF657323DAF9122E3 /* PXFlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC51DBFD3CB8B8A12FD8F32DDA5B10C /* PXFlashControl.m */; };
 		635D0AD8AB7764809F36D561367D643F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
+		6526449A1C2B656600FC6875 /* PXCameraPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 652644981C2B656600FC6875 /* PXCameraPreviewView.h */; };
+		6526449B1C2B656600FC6875 /* PXCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652644991C2B656600FC6875 /* PXCameraPreviewView.m */; };
 		71DA1F6E77F0B75589FC5C330CC6D402 /* PXCameraDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA0CFB594C08B4317DF7DA7C724D59B /* PXCameraDisplayView.m */; };
 		734E5651962F17C1AD8B3A4D8FFEFCED /* PXCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */; };
 		7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */; };
@@ -172,6 +174,8 @@
 		54DE37551FED1FE6B41DAFEC180BC9DE /* PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCamera-dummy.m"; sourceTree = "<group>"; };
 		5F313F3458A2A4BB0708D983AA28B4FB /* Pods-PXCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.release.xcconfig"; sourceTree = "<group>"; };
 		63984FE45AFD4477A1EBBC63E5E3F8B9 /* PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
+		652644981C2B656600FC6875 /* PXCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCameraPreviewView.h; sourceTree = "<group>"; };
+		652644991C2B656600FC6875 /* PXCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCameraPreviewView.m; sourceTree = "<group>"; };
 		6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraView.h; sourceTree = "<group>"; };
 		6E3F50FB956FA60C0E74ABEF782DCD7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		70C2EEEEEA4F35CD577498758FF3FCF2 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
@@ -496,14 +500,16 @@
 				A7FEC70B82729DC1087EC7850A7EAE16 /* PXCameraButton.m */,
 				31FA785099A6BA713FDC3016A8C6F8D2 /* PXCameraCaptureManager.h */,
 				CDC80690A483CFD1DD92A37EEAF3C60B /* PXCameraCaptureManager.m */,
+				652644981C2B656600FC6875 /* PXCameraPreviewView.h */,
+				652644991C2B656600FC6875 /* PXCameraPreviewView.m */,
+				FAAEE65EF224E23E3EB7AB644C821E74 /* PXCameraViewController.h */,
+				D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */,
+				6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */,
+				8248A19A53268CF399C5C7F695D4FA3E /* PXCameraView.m */,
 				A19603BF3C79B3B985A3BEE0D0540327 /* PXCameraDisplayView.h */,
 				CDA0CFB594C08B4317DF7DA7C724D59B /* PXCameraDisplayView.m */,
 				34F00E1CA1096671415638E423F7A617 /* PXCameraGridLayer.h */,
 				934775E609E1614D11B45A72AE25F580 /* PXCameraGridLayer.m */,
-				6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */,
-				8248A19A53268CF399C5C7F695D4FA3E /* PXCameraView.m */,
-				FAAEE65EF224E23E3EB7AB644C821E74 /* PXCameraViewController.h */,
-				D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */,
 				BEE06F6F27B66BC5C2D118CF5F5ABC31 /* PXFlashControl.h */,
 				BFC51DBFD3CB8B8A12FD8F32DDA5B10C /* PXFlashControl.m */,
 				942B0296C136E50E3C0D6C3128745C11 /* PXImagePickerHelper.h */,
@@ -566,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06E5BE93758009035C26B3BE1C58F8AF /* PXCamera.h in Headers */,
+				6526449A1C2B656600FC6875 /* PXCameraPreviewView.h in Headers */,
 				5D5012B571F5CE2CEB3759F65588AA81 /* PXCameraButton.h in Headers */,
 				ECBFD8169DEA76164EA0B753363DE171 /* PXCameraCaptureManager.h in Headers */,
 				C86D519AFC84A6C42F0CCF7A6A1A8272 /* PXCameraDisplayView.h in Headers */,
@@ -830,6 +837,7 @@
 				3B6B70DACB813C1C47684A82319BF49B /* PXCameraGridLayer.m in Sources */,
 				9718821AACA60A178D589744CC6AD802 /* PXCameraView.m in Sources */,
 				734E5651962F17C1AD8B3A4D8FFEFCED /* PXCameraViewController.m in Sources */,
+				6526449B1C2B656600FC6875 /* PXCameraPreviewView.m in Sources */,
 				5DF15C5ED28BC93AF657323DAF9122E3 /* PXFlashControl.m in Sources */,
 				95E12D1505C5FAAA77A6589D62A39F1C /* PXImagePickerHelper.m in Sources */,
 				F79B27CF5B0DB7DEB6A90A347D49D537 /* PXLibraryButton.m in Sources */,
