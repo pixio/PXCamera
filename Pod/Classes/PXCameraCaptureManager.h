@@ -28,7 +28,12 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import <PXCamera/PXFlashControl.h>
+typedef NS_ENUM(NSInteger, PXFlashType) {
+    PXFlashTypeAuto,
+    PXFlashTypeOn,
+    PXFlashTypeOff,
+    PXFlashTypeUnavailable,
+};
 
 @protocol PXCameraCaptureManagerDelegate;
 

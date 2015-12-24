@@ -26,12 +26,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, PXFlashType) {
-    PXFlashTypeAuto,
-    PXFlashTypeOn,
-    PXFlashTypeOff,
-    PXFlashTypeUnavailable,
-};
+#import "PXCameraCaptureManager.h"
 
 typedef NS_ENUM(NSInteger, PXFlashControlState) {
     PXFlashControlStateCollapsed,
