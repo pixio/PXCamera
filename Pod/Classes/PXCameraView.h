@@ -96,11 +96,13 @@ typedef NS_ENUM(NSInteger, PXCameraViewType) { // NSAlrightyThen
 
 - (id)init;
 
-- (void) reset;
-- (void) flash;
-- (void) flashOn;
-- (void) flashOff;
+- (void)reset;
+- (void)flash;
+- (void)flashOn;
+- (void)flashOff;
 
-- (void) setFlashType:(PXFlashType)flashType;
+- (void)ensureValidCameraView;
+
+- (void)setFlashType:(PXFlashType)flashType;
 
 @end

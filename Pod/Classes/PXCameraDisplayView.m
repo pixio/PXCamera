@@ -49,20 +49,27 @@
         _gridLayer = [[PXCameraGridLayer alloc] init];
         [_gridLayer setSpeed:1000];
         [[self layer] addSublayer:_gridLayer];
-        
-        NSDictionary* views = NSDictionaryOfVariableBindings(_cameraPreview);
-        NSDictionary* metrics = @{};
-        
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
     }
     return self;
+}
+
+- (void)updateConstraints
+{
+    NSDictionary* views = NSDictionaryOfVariableBindings(_cameraPreview);
+    NSDictionary* metrics = @{};
+    
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_cameraPreview]|" options:0 metrics:metrics views:views]];
+    
+    [super updateConstraints];
 }
 
 - (void)layoutSublayersOfLayer:(CALayer *)layer
 {
     [super layoutSublayersOfLayer:layer];
-    [_gridLayer setFrame:[layer bounds]];
+    if ([layer isEqual:[self layer]]) {
+        [_gridLayer setFrame:[layer bounds]];
+    }
 }
 
 - (BOOL)gridHidden
@@ -73,6 +80,13 @@
 - (void)setGridHidden:(BOOL)gridHidden
 {
     [_gridLayer setGridHidden:gridHidden];
+}
+
+- (void)ensureCameraPreviewViewAttached
+{
+    if (![[_cameraPreview superview] isEqual:self]) {
+        [self addSubview:_cameraPreview];
+    }
 }
 
 @end

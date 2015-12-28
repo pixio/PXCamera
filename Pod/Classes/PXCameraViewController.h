@@ -34,6 +34,9 @@
 
 @interface PXCameraViewController : PXPinnedRotationViewController
 
+/**
+ *  Shared singleton view controller to use.
+ */
 + (PXCameraViewController*)sharedCamera;
 
 /**
@@ -58,5 +61,7 @@
  *  @param completion block to call when image is captured
  */
 - (void)setCompletion:(void (^)(UIImage*, PXCameraImageSource, void (^completion)()))completion;
+
+- (instancetype)init __attribute__((unavailable("use the singleton")));
 
 @end

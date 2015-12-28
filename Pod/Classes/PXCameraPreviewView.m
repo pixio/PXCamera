@@ -55,4 +55,9 @@
     [_previewLayer setFrame:[[self layer] bounds]];
 }
 
+- (void)removeFromSuperview
+{
+    [super removeFromSuperview];
+}
+
 @end

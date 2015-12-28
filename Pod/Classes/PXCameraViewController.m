@@ -62,7 +62,7 @@
     static dispatch_once_t onceToken;
     
     dispatch_once(&onceToken, ^{
-        _sharedCamera = [[PXCameraViewController alloc] init];
+        _sharedCamera = [[PXCameraViewController alloc] init_internal];
     });
     
     return _sharedCamera;
@@ -86,7 +86,7 @@
     _vc = vc;
 }
 
-- (id)init
+- (instancetype)init_internal
 {
     self = [super init];
     if (self) {
@@ -145,18 +145,18 @@
     [[[self contentView] spanPicker] setTitle:_shutterDelayText];
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return TRUE;
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     [[self contentView] setOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 
-- (BOOL)prefersStatusBarHidden
-{
-    return TRUE;
-}
-
--(void)viewWillAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
@@ -165,11 +165,12 @@
     [[[self contentView] takePhoto] setCountDown:@""];
     _remainingDelay = 0.0f;
     
+    [[self contentView] ensureValidCameraView];
     [[PXCameraCaptureManager captureManager] start];
     [self changeFlashModeOrHideFlash:PXFlashTypeAuto];
 }
 
-- (void) viewDidDisappear:(BOOL)animated
+- (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
     [[PXCameraCaptureManager captureManager] stop];
@@ -193,12 +194,24 @@
 
 - (void)backPressed
 {
-    if (_completion) {
-        _completion(nil, PXCameraImageSourceNone, ^ {
-            
-        });
+    __weak typeof(self) weakSelf = self;
+    void (^whenDone)(void) = ^ {
+        __strong __typeof(weakSelf) strongSelf = weakSelf;
+        [SVProgressHUD dismiss];
+        [[strongSelf contentView] reset];
+    };
+    
+    if (_presented) {
+        [self runCompletion:nil];
+        [[self presentingViewController] dismissViewControllerAnimated:TRUE completion:whenDone];
+        _presented = FALSE; // reset state
+    } else {
+        if (_completion) {
+            _completion(nil, PXCameraImageSourceNone, ^ {
+                whenDone();
+            });
+        }
     }
-    [_vc dismissViewControllerAnimated:TRUE completion:nil];
 }
 
 - (void)switchCameraPressed
@@ -306,17 +319,15 @@
             [[strongSelf contentView] reset];
         };
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            if (strongSelf->_presented) {
-                [strongSelf runCompletion:nil];
-                [[strongSelf presentingViewController] dismissViewControllerAnimated:TRUE completion:whenDone];
-                strongSelf->_presented = FALSE; // reset state
-            } else {
-                [strongSelf runCompletion:^{
-                    whenDone();
-                }];
-            }
-        });
+        if (strongSelf->_presented) {
+            [strongSelf runCompletion:nil];
+            [[strongSelf presentingViewController] dismissViewControllerAnimated:TRUE completion:whenDone];
+            strongSelf->_presented = FALSE; // reset state
+        } else {
+            [strongSelf runCompletion:^{
+                whenDone();
+            }];
+        }
     }];
 }
 

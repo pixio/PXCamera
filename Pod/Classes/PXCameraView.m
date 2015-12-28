@@ -355,4 +355,12 @@
     }];
 }
 
+- (void)ensureValidCameraView
+{
+    // make sure that the camera preview view from the capture manager is actually a subview of our camera view
+    // I don't love this solution but it's easy and I'm feeling lazy today.  
+    // It would probably be cleaner to just make a new PXCameraView every time the camera is loaded.  It's all internal anyway.
+    [_cameraView ensureCameraPreviewViewAttached];
+}
+
 @end
