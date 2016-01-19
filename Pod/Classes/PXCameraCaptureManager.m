@@ -475,7 +475,18 @@
 			}
 			[[self backFacingCamera] unlockForConfiguration];
 		}
-	}
+    }
+    
+    switch (position) {
+        case AVCaptureDevicePositionFront:
+            _flashType = PXFlashTypeUnavailable;
+            break;
+            
+        case AVCaptureDevicePositionBack:
+        default:
+            _flashType = PXFlashTypeAuto;
+            break;
+    }
 	
     // Init the device inputs
     AVCaptureDeviceInput *newVideoInput;
