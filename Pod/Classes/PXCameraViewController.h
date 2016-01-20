@@ -28,7 +28,6 @@
 #import <AVFoundation/AVFoundation.h>
 
 #import "PXCamera.h"
-#import "PXCameraView.h"
 
 #import <PXPinnedRotation/PXPinnedRotationViewController.h>
 

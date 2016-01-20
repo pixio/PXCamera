@@ -26,6 +26,7 @@
 
 #import "PXCameraViewController.h"
 
+#import "PXCameraView.h"
 #import "PXImagePickerHelper.h"
 #import "PXCameraCaptureManager.h"
 
