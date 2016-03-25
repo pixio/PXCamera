@@ -46,7 +46,7 @@
     CGFloat _remainingDelay;
     
     UIImage * _capturedImage;
-        
+    
     AVCaptureVideoOrientation _orientation;
     
     void (^_completion)(UIImage*, PXCameraImageSource, void (^completion)());
@@ -55,6 +55,8 @@
     PXCameraImageSource _imageSource;
     
     BOOL _presentedModally;
+    
+    BOOL _presenterStatusBarVisibility;
 }
 
 + (PXCameraViewController*)sharedCamera
@@ -132,7 +134,7 @@
     [[[self contentView] photoLibrary] addTarget:self action:@selector(photoLibraryButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     [[[self contentView] takePhoto] addTarget:self action:@selector(takePhotoButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     [[[self contentView] backButton] addTarget:self action:@selector(backPressed) forControlEvents:UIControlEventTouchUpInside];
-
+    
     [self changeFlashModeOrHideFlash:PXFlashTypeAuto];
     
     [self setOnRotationBlock:^(UIInterfaceOrientation orientation) {
@@ -144,17 +146,6 @@
 {
     _shutterDelayText = shutterDelayText;
     [[[self contentView] spanPicker] setTitle:_shutterDelayText];
-}
-
-- (BOOL)prefersStatusBarHidden
-{
-    return TRUE;
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    [[self contentView] setOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -169,12 +160,33 @@
     [[self contentView] ensureValidCameraView];
     [[PXCameraCaptureManager captureManager] start];
     [self changeFlashModeOrHideFlash:PXFlashTypeAuto];
+    
+    _presenterStatusBarVisibility = [[UIApplication sharedApplication] isStatusBarHidden];
+    [[UIApplication sharedApplication] setStatusBarHidden:TRUE withAnimation:UIStatusBarAnimationFade];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [[self contentView] setOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:_presenterStatusBarVisibility withAnimation:UIStatusBarAnimationFade];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
     [[PXCameraCaptureManager captureManager] stop];
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return TRUE;
 }
 
 - (void)statusBarFrameWillChange:(NSNotification*)notification {
