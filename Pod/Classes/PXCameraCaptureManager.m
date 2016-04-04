@@ -206,6 +206,19 @@
 
 - (void)captureStillImageWithBlock:(void(^)(UIImage*))block
 {
+    // check if the user still hasn't given camera permission
+    AVAuthorizationStatus permission = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+    if (permission == AVAuthorizationStatusDenied || permission == AVAuthorizationStatusRestricted) {
+        // no camera for you, users of this library should handle this case on their own.
+        if (block) {
+            block(nil);
+        }
+        if ([[self delegate] respondsToSelector:@selector(captureManagerStillImageCaptured:)]) {
+            [[self delegate] captureManagerStillImageCaptured:self];
+        }
+        return;
+    }
+    
     if ([_stillImageConnection isVideoOrientationSupported]) {
         [_stillImageConnection setVideoOrientation:_orientation];
     }

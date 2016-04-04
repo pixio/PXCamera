@@ -76,11 +76,21 @@
     [[self view] addConstraint:[NSLayoutConstraint constraintWithItem:_libraryButton attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:[self view] attribute:NSLayoutAttributeCenterY multiplier:1.0f constant:0.0f]];
 }
 
+- (BOOL)checkCameraAuthorization
+{
+    return ([[PXCamera camera] cameraAuthorized] == PXCameraAuthorizationStatusAuthorized || 
+            [[PXCamera camera] cameraAuthorized] == PXCameraAuthorizationStatusNotDetermined);
+}
+
 - (void)cameraPressed
 {
-    [[PXCamera camera] getImageInViewController:self interface:PXCameraInterfaceCamera completion:^(UIImage * image, PXCameraImageSource source) {
-        NSLog(@"C: %@", image);
-    }];
+    if ([self checkCameraAuthorization]) {
+        [[PXCamera camera] getImageInViewController:self interface:PXCameraInterfaceCamera completion:^(UIImage * image, PXCameraImageSource source) {
+            NSLog(@"C: %@", image);
+        }];
+    } else {
+        NSLog(@"no permission, no camera");
+    }
 }
 
 - (void)cameraPressed2

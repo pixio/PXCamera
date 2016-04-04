@@ -29,6 +29,8 @@
 #import "PXImagePickerHelper.h"
 #import "PXCameraViewController.h"
 
+#import <Photos/PHPhotoLibrary.h>
+
 @implementation PXCamera
 
 + (instancetype)camera
@@ -56,6 +58,42 @@
         [PXCameraViewController sharedCamera];
     }
     return self;
+}
+
+- (PXCameraAuthorizationStatus)cameraAuthorized
+{
+    switch ([AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo]) {
+        case AVAuthorizationStatusNotDetermined:
+            return PXCameraAuthorizationStatusNotDetermined;
+            
+        case AVAuthorizationStatusRestricted:
+            return PXCameraAuthorizationStatusRestricted;
+            
+        case AVAuthorizationStatusAuthorized:
+            return PXCameraAuthorizationStatusAuthorized;
+            
+        case AVAuthorizationStatusDenied:
+        default:
+            return PXCameraAuthorizationStatusDenied;
+    }
+}
+
+- (PXCameraAuthorizationStatus)photosAuthorized
+{
+    switch ([PHPhotoLibrary authorizationStatus]) {
+        case PHAuthorizationStatusNotDetermined:
+            return PXCameraAuthorizationStatusNotDetermined;
+            
+        case PHAuthorizationStatusRestricted:
+            return PXCameraAuthorizationStatusRestricted;
+            
+        case PHAuthorizationStatusAuthorized:
+            return PXCameraAuthorizationStatusAuthorized;
+            
+        case PHAuthorizationStatusDenied:
+        default:
+            return PXCameraAuthorizationStatusDenied;
+    }
 }
 
 - (void)getImageInViewController:(UIViewController*)vc interface:(PXCameraInterface)interface completion:(void(^)(UIImage*, PXCameraImageSource))completion;

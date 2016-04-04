@@ -59,6 +59,28 @@ typedef NS_ENUM(NSInteger, PXCameraImageSource){
 };
 
 /**
+ *  The authorization status of the image sources (camera or library).
+ */
+typedef NS_ENUM(NSInteger, PXCameraAuthorizationStatus) {
+    /**
+     *  The user hasn't been asked yet.
+     */
+    PXCameraAuthorizationStatusNotDetermined,
+    /**
+     *  The user can't use the image source and can't change that fact.
+     */
+    PXCameraAuthorizationStatusRestricted,
+    /**
+     *  The user said no when you asked.
+     */
+    PXCameraAuthorizationStatusDenied,
+    /**
+     *  The user said yes when you asked.
+     */
+    PXCameraAuthorizationStatusAuthorized,
+};
+
+/**
  *  Central class for interfacing with all the various image classes (camera, library).
  */
 @interface PXCamera : NSObject
@@ -67,6 +89,16 @@ typedef NS_ENUM(NSInteger, PXCameraImageSource){
  *  Shared singleton.
  */
 + (instancetype)camera;
+
+/**
+ *  The authorization state of the camera.
+ */
+- (PXCameraAuthorizationStatus)cameraAuthorized;
+
+/**
+ *  The authorization state of the photo library.
+ */
+- (PXCameraAuthorizationStatus)photosAuthorized;
 
 #pragma mark - Configurable Properties
 #pragma mark Photo Library
