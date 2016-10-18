@@ -384,6 +384,7 @@
     if (_completion) {
         _completion(_capturedImage, _imageSource, whenDone);
     }
+    _capturedImage = nil;
 }
 
 - (void)captureManager:(PXCameraCaptureManager *)captureManager didFailWithError:(NSError *)error
