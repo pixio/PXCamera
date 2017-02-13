@@ -146,24 +146,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013D3556BE7BD642E18BE8338DE772C1 /* libPods-PXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXCamera.a"; path = "libPods-PXCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		013D3556BE7BD642E18BE8338DE772C1 /* libPods-PXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		027F23F100A39DE2C8FC3A9F1BE53E45 /* PXPinnedRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationViewController.m; path = Pod/Classes/PXPinnedRotationViewController.m; sourceTree = "<group>"; };
 		02FB391E82AF000BEBCBC95C88EF0068 /* PXCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraView.h; sourceTree = "<group>"; };
 		04BD1ADB47BF687D50483D23E9AE7520 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		0763ABAA2745C4F4CB31E2D97A2CFA26 /* PXImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXImagePickerHelper.m; sourceTree = "<group>"; };
-		07A2BD4B4D16CCF9A38608EDCDF8E4DA /* grid.png */ = {isa = PBXFileReference; includeInIndex = 1; path = grid.png; sourceTree = "<group>"; };
+		07A2BD4B4D16CCF9A38608EDCDF8E4DA /* grid.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 		081481C7E7F23B9D395C1CD06A24924C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		0AC9478C2146A6AD731BD70C71694DC3 /* PXCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXCamera.bundle; path = PXCamera.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC9478C2146A6AD731BD70C71694DC3 /* PXCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXCamera.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2E4A9AC73DE57EBAD47F5BC4886751 /* PXCameraCaptureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraCaptureManager.h; sourceTree = "<group>"; };
 		10D8AC8A39A5202424BBF7C420E7E282 /* PXLibraryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXLibraryButton.h; sourceTree = "<group>"; };
-		13D36B239E5618384D7907FB494F84E1 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "close@3x.png"; sourceTree = "<group>"; };
-		14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "switch-camera@2x.png"; sourceTree = "<group>"; };
-		1535D4C728AA3450E37A5E98A5B996E0 /* PXPinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXPinnedRotation.bundle; path = PXPinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		19A100443F40447766C1382AA5987308 /* flash-unavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-unavailable@2x.png"; sourceTree = "<group>"; };
+		13D36B239E5618384D7907FB494F84E1 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "switch-camera@2x.png"; sourceTree = "<group>"; };
+		1535D4C728AA3450E37A5E98A5B996E0 /* PXPinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A100443F40447766C1382AA5987308 /* flash-unavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-unavailable@2x.png"; sourceTree = "<group>"; };
 		20D750C51DFF0EE55746FEFC0EF68FC3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		22C538DD1BD4F041883B16BAB1371165 /* PXCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraViewController.h; sourceTree = "<group>"; };
 		2C7A90C894A3A75316A4AA9B312ED547 /* PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCamera-dummy.m"; sourceTree = "<group>"; };
-		30EA0139EA5702E12A7AED9C3213EEFF /* grid@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "grid@3x.png"; sourceTree = "<group>"; };
+		30EA0139EA5702E12A7AED9C3213EEFF /* grid@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "grid@3x.png"; sourceTree = "<group>"; };
 		34BC1541C159D4E1A206765FAF067C11 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		3676F21A3288ACA9B5BEEF0942364F43 /* Pods-PXCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCamera-frameworks.sh"; sourceTree = "<group>"; };
 		4194FFF696B9846F7F51B6ABAF36B186 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 		4654CA585382F68E1C6C18DA8AB2EF2F /* ResourceBundle-PXCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXCamera-Info.plist"; sourceTree = "<group>"; };
 		48E35FA7FD87DF77ADF0E55EFE37F506 /* PXImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXImagePickerHelper.h; sourceTree = "<group>"; };
 		4B30D6C2A1B00E9D73721E13DC10BFB7 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4B69EA18BCB6E9A51EADDA9722A3DD31 /* flash-off.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-off.png"; sourceTree = "<group>"; };
-		4BFA5DF40AB3CE9344CB306230BDBA9B /* flash-on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-on.png"; sourceTree = "<group>"; };
+		4B69EA18BCB6E9A51EADDA9722A3DD31 /* flash-off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-off.png"; sourceTree = "<group>"; };
+		4BFA5DF40AB3CE9344CB306230BDBA9B /* flash-on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-on.png"; sourceTree = "<group>"; };
 		4D112B37E2FCEFFC9439046541838555 /* Pods-PXCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.release.xcconfig"; sourceTree = "<group>"; };
 		51C2CDE210906E9539ACBD3814DF7343 /* PXFlashControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXFlashControl.h; sourceTree = "<group>"; };
 		58BA6AA1313CD890CABC5F99FA13FA5E /* PXPinnedRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationView.m; path = Pod/Classes/PXPinnedRotationView.m; sourceTree = "<group>"; };
@@ -182,12 +182,12 @@
 		6652D25811E4BC9530F6A0452994D816 /* PXPinnedRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationViewController.h; path = Pod/Classes/PXPinnedRotationViewController.h; sourceTree = "<group>"; };
 		66B3F454BD328F981D88F9700F3346AF /* Pods-PXCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6ECCEF0BACFCA40410C8F8E9847B965E /* flash-unavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-unavailable.png"; sourceTree = "<group>"; };
+		6ECCEF0BACFCA40410C8F8E9847B965E /* flash-unavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-unavailable.png"; sourceTree = "<group>"; };
 		7153E5A9463F5E6B47B655141DD1686B /* Pods-PXCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		76044B7F41A653C79569D06F04C051F2 /* PXCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCamera.m; sourceTree = "<group>"; };
 		785037556E0BE1163C512E8FA57DF6F4 /* PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
 		79B4FE38A2157D268D909BAFAFF3F045 /* PXCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraButton.h; sourceTree = "<group>"; };
-		7B2C3752CAF6D41E378C00451043EC3B /* flash-auto.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-auto.png"; sourceTree = "<group>"; };
+		7B2C3752CAF6D41E378C00451043EC3B /* flash-auto.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-auto.png"; sourceTree = "<group>"; };
 		8076811273FC6C9FEA669CADF5E3E57D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		80A5C2EE271197BB4B4511A740388C14 /* ResourceBundle-PXPinnedRotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXPinnedRotation-Info.plist"; sourceTree = "<group>"; };
 		82CECEEDDFE3A2F704054B025A1295FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -197,41 +197,41 @@
 		8DE5EEF273212FADEB874B393FEB83A6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F783B1AE40B427C6A61088C2F7AE4AE /* PXCameraGridLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraGridLayer.h; sourceTree = "<group>"; };
 		904D597C086E0520ADFDE7BE4FFBD1C4 /* PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E47E3DDEB76A27899C6BC416BF2A89 /* PXCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraButton.m; sourceTree = "<group>"; };
 		9724434AF25CB953073FC4F8974B908B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		97A56D1E1703650AE05980C530628AA6 /* Pods-PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXCamera-dummy.m"; sourceTree = "<group>"; };
 		9AE854EAB639C16887FC8CE453FFECD9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		A224965B8091E67708F4C07476E177CF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		A64DB289F3835475AA3FD8FF4E6C543A /* PXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCamera.h; sourceTree = "<group>"; };
-		A70BF87F81B7D7A84EC06BDDE98DFD7C /* libPXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXPinnedRotation.a; path = libPXPinnedRotation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70BF87F81B7D7A84EC06BDDE98DFD7C /* libPXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXPinnedRotation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81911ADA2EB835E39E65276F4202396 /* PXFlashControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXFlashControl.m; sourceTree = "<group>"; };
 		ACFBD731DEE9532D074A2E9EC18556DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B315C05E715CDC953286FF4870D967BD /* flash-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-on@2x.png"; sourceTree = "<group>"; };
-		B406BD018892DED41451F839AE114EFE /* grid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "grid@2x.png"; sourceTree = "<group>"; };
+		B315C05E715CDC953286FF4870D967BD /* flash-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-on@2x.png"; sourceTree = "<group>"; };
+		B406BD018892DED41451F839AE114EFE /* grid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
 		B82A94EF563C0BDF14DAB4AE6A50CC4A /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B9D18BBE07A15871E000E4E2554C0225 /* Pods-PXCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCamera-resources.sh"; sourceTree = "<group>"; };
 		C051162A7C632CECAB952351A065C019 /* PXCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraViewController.m; sourceTree = "<group>"; };
 		C216ED5BA90AAE2D3E2D0179E55189CF /* PXSpanPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXSpanPicker.m; sourceTree = "<group>"; };
-		C4261AA76D7D531F4473500516F0A00F /* flash-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-off@2x.png"; sourceTree = "<group>"; };
+		C4261AA76D7D531F4473500516F0A00F /* flash-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-off@2x.png"; sourceTree = "<group>"; };
 		C7FF31E2DF363E63B3E17F7779ADACA5 /* PXCameraCaptureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraCaptureManager.m; sourceTree = "<group>"; };
 		C8F3D864FBDD7CB759D081EB0877BEEA /* PXPinnedRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationView.h; path = Pod/Classes/PXPinnedRotationView.h; sourceTree = "<group>"; };
 		CCE1ACC6AF5335CF41B72F7259618081 /* PXLibraryButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXLibraryButton.m; sourceTree = "<group>"; };
 		D0B32745697D6E8D96E04EF63A318677 /* PXCameraGridLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraGridLayer.m; sourceTree = "<group>"; };
 		D1AD97261E60F4523C7546BE67CBD29D /* Pods-PXCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXCamera-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1D294789D645989275376EA4EDF31EB /* switch-camera.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "switch-camera.png"; sourceTree = "<group>"; };
+		D1D294789D645989275376EA4EDF31EB /* switch-camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "switch-camera.png"; sourceTree = "<group>"; };
 		D55B24497AD786556565EFC9E500A0AA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5D13E615FF3739CDD70552B55351A6B /* PXCameraPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraPreviewView.m; sourceTree = "<group>"; };
 		D89911A58DA8B2B6A47C6FE37C119FDC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		DBEACA7460E20BD64639EBEE54CB5366 /* libPXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXCamera.a; path = libPXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB1EB75E2F0F3156344BF0669DE2FB3 /* flash-auto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
-		DE9BBD4F31F8B3FF969EEEDF6619C191 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEACA7460E20BD64639EBEE54CB5366 /* libPXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB1EB75E2F0F3156344BF0669DE2FB3 /* flash-auto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
+		DE9BBD4F31F8B3FF969EEEDF6619C191 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F905560B3D49A748ECA5C0ED42ED23 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		E516F01CEAE3ABB233F74914228DC610 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68200A9CDA63FE8B5A448F4B7387595 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; path = close.png; sourceTree = "<group>"; };
+		E516F01CEAE3ABB233F74914228DC610 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68200A9CDA63FE8B5A448F4B7387595 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		ED136046BA920EA8CECDA5A450795B91 /* PXCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraView.m; sourceTree = "<group>"; };
 		EE0A85D3498A67AD6B82D4E5CBA343E5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0064F0C51E2E22AB3E90567D652EC62 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "close@2x.png"; sourceTree = "<group>"; };
+		F0064F0C51E2E22AB3E90567D652EC62 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		F55B3F9DBB595A94505BBCFDC28E92BC /* PXSpanPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXSpanPicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -341,7 +341,6 @@
 				D1D294789D645989275376EA4EDF31EB /* switch-camera.png */,
 				14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -355,7 +354,6 @@
 				0517D8CF7A780CE397A8BEC0E85E7015 /* Resources */,
 				A63FD7E9CC6ECFD11D73CFB0CAF2EF1C /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -384,7 +382,6 @@
 			children = (
 				4123385B32C8E43C890F9C04CDB6558D /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -437,7 +434,6 @@
 				F55B3F9DBB595A94505BBCFDC28E92BC /* PXSpanPicker.h */,
 				C216ED5BA90AAE2D3E2D0179E55189CF /* PXSpanPicker.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -528,7 +524,6 @@
 				027F23F100A39DE2C8FC3A9F1BE53E45 /* PXPinnedRotationViewController.m */,
 				8A9B8752C21E124B24EC835144B1E3DC /* Support Files */,
 			);
-			name = PXPinnedRotation;
 			path = PXPinnedRotation;
 			sourceTree = "<group>";
 		};
@@ -537,7 +532,6 @@
 			children = (
 				086B997CCF2FAAA4A3740C3CCB570BFE /* Assets */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -740,7 +734,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -945,7 +939,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -966,7 +960,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXPinnedRotation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -985,7 +979,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1008,7 +1002,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1032,7 +1026,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1052,7 +1046,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXCamera/ResourceBundle-PXCamera-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXCamera;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1072,7 +1066,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1095,7 +1089,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1118,7 +1112,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1140,7 +1134,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1164,7 +1158,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1184,7 +1178,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXCamera/ResourceBundle-PXCamera-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXCamera;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1204,7 +1198,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1224,7 +1218,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PXPinnedRotation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1247,15 +1241,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -1269,7 +1267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1291,14 +1289,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -1309,7 +1311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
