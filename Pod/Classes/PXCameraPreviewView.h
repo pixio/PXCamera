@@ -26,6 +26,6 @@
 
 @interface PXCameraPreviewView : UIView
 
-@property (nonatomic) CALayer * previewLayer;
+@property (nonatomic, nullable) CALayer * previewLayer;
 
 @end

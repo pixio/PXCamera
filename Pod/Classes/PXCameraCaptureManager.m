@@ -32,29 +32,29 @@
 #define PXCameraLastPosition @"PXCameraLastPosition"
 
 @interface PXCameraCaptureManager (InternalUtilityMethods)
-- (AVCaptureDevice *) cameraWithPosition:(AVCaptureDevicePosition)position;
-- (AVCaptureDevice *) frontFacingCamera;
-- (AVCaptureDevice *) backFacingCamera;
-- (AVCaptureDevice *) audioDevice;
+- (nullable AVCaptureDevice *) cameraWithPosition:(AVCaptureDevicePosition)position;
+- (nullable AVCaptureDevice *) frontFacingCamera;
+- (nullable AVCaptureDevice *) backFacingCamera;
+- (nullable AVCaptureDevice *) audioDevice;
 @end
 
 @interface PXCameraCaptureManager () <UIGestureRecognizerDelegate>
 
-@property (nonatomic, strong) AVCaptureSession *session;
-@property (nonatomic, strong) AVCaptureDeviceInput *imageInput;
+@property (nonatomic, strong, nullable) AVCaptureSession *session;
+@property (nonatomic, strong, nullable) AVCaptureDeviceInput *imageInput;
 @property (nonatomic, readonly) AVCaptureDevicePosition position;
-@property (nonatomic) AVCaptureConnection * stillImageConnection;
+@property (nonatomic, nullable) AVCaptureConnection * stillImageConnection;
 @property (nonatomic, assign) AVCaptureVideoOrientation orientation;
 @property (nonatomic, unsafe_unretained) id deviceConnectedObserver;
 @property (nonatomic, unsafe_unretained) id deviceDisconnectedObserver;
-@property (nonatomic, strong) AVCaptureStillImageOutput *stillImageOutput;
+@property (nonatomic, strong, nullable) AVCaptureStillImageOutput *stillImageOutput;
 
-- (BOOL)setupSession;
-- (NSUInteger)cameraCount;
-- (void)autoFocusAtPoint:(CGPoint)point;
-- (void)continuousFocusAtPoint:(CGPoint)point;
-- (BOOL)setCameraPosition:(AVCaptureDevicePosition)position;
-- (BOOL)setupSessionWithDevicePosition:(AVCaptureDevicePosition)position;
+- (BOOL) setupSession;
+- (NSUInteger) cameraCount;
+- (void) autoFocusAtPoint:(CGPoint)point;
+- (void) continuousFocusAtPoint:(CGPoint)point;
+- (BOOL) setCameraPosition:(AVCaptureDevicePosition)position;
+- (BOOL) setupSessionWithDevicePosition:(AVCaptureDevicePosition)position;
 
 @end
 

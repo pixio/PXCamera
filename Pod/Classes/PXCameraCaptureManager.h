@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, PXFlashType) {
 /**
  *  Shared singleton.
  */
-+ (instancetype)captureManager;
++ (nonnull instancetype) captureManager;
 
 /**
  *  The flash mode to use.
@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, PXFlashType) {
 /**
  *  A view that displays the current camera output.
  */
-@property (nonatomic, readonly) UIView * cameraPreviewView;
+@property (nonatomic, readonly, nonnull) UIView * cameraPreviewView;
 
 /**
  *  The orientation of the camera interface.  This dictates the orientation of the video output into the preview view.  
@@ -63,39 +63,39 @@ typedef NS_ENUM(NSInteger, PXFlashType) {
 /**
  *  Delegate called for various events.
  */
-@property (nonatomic, weak) id <PXCameraCaptureManagerDelegate> delegate;
+@property (nonatomic, weak, nullable) id <PXCameraCaptureManagerDelegate> delegate;
 
 /**
  *  Switch the cameras (front to back, back to front)
  *
  *  @return whether the cameras switched
  */
-- (BOOL)toggleCamera;
+- (BOOL) toggleCamera;
 
 /**
  *  Whether or not flash is supported by the current camera.  This may change after a call to @c -toggleCamera.
  */
-- (BOOL)isFlashSupported;
+- (BOOL) isFlashSupported;
 
 /**
  *  Start the camera capture.  This starts getting camera data and playing it back in the preview view.
  */
-- (void)start;
+- (void) start;
 
 /**
  *  Stop the camera capture.  This stops the camera preview view from updating.
  *  You should stop the capture manager whenever it is not visible to save battery life.
  */
-- (void)stop;
+- (void) stop;
 
 /**
  *  Capture an image from the camera.
  *
  *  @param block a block called with the captured image.
  */
-- (void)captureStillImageWithBlock:(void(^)(UIImage*))block;
+- (void) captureStillImageWithBlock:(nullable void(^)(UIImage* _Nullable))block;
 
-- (instancetype)init __attribute__((unavailable("use the singleton")));
+- (nullable instancetype) init __attribute__((unavailable("use the singleton")));
 
 @end
 
@@ -104,7 +104,7 @@ typedef NS_ENUM(NSInteger, PXFlashType) {
  */ 
 @protocol PXCameraCaptureManagerDelegate <NSObject>
 @optional
-- (void) captureManager:(PXCameraCaptureManager *)captureManager didFailWithError:(NSError *)error;
-- (void) captureManagerStillImageCaptured:(PXCameraCaptureManager *)captureManager;
-- (void) captureManagerDeviceConfigurationChanged:(PXCameraCaptureManager *)captureManager;
+- (void) captureManager:(nullable PXCameraCaptureManager *)captureManager didFailWithError:(nullable NSError *)error;
+- (void) captureManagerStillImageCaptured:(nullable PXCameraCaptureManager *)captureManager;
+- (void) captureManagerDeviceConfigurationChanged:(nullable PXCameraCaptureManager *)captureManager;
 @end

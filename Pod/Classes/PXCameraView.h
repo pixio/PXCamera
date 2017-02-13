@@ -47,62 +47,62 @@ typedef NS_ENUM(NSInteger, PXCameraViewType) { // NSAlrightyThen
 /**
  *  Picker for picking the shutter delay
  */
-@property (nonatomic) PXSpanPicker * spanPicker;
+@property (nonatomic, readonly, nonnull) PXSpanPicker * spanPicker;
 
 /**
  *  Button for choosing flash mode.
  */
-@property (nonatomic) PXFlashControl * flashButton;
+@property (nonatomic, readonly, nonnull) PXFlashControl * flashButton;
 
 /**
  *  Button to switch camera from front-facing to back-facing.
  */
-@property (nonatomic) UIButton * switchCamera;
+@property (nonatomic, readonly, nonnull) UIButton * switchCamera;
 
 /**
  *  Display grid overlay.
  */
-@property (nonatomic) UIButton * gridButton;
+@property (nonatomic, readonly, nonnull) UIButton * gridButton;
 
 /**
  *  Button for opening the photo library.
  */
-@property (nonatomic) PXLibraryButton * photoLibrary;
+@property (nonatomic, readonly, nonnull) PXLibraryButton * photoLibrary;
 
 /**
  *  Shutter button.
  */
-@property (nonatomic) PXCameraButton * takePhoto;
+@property (nonatomic, readonly, nonnull) PXCameraButton * takePhoto;
 
 /**
  *  Button to return to the previous view.
  */
-@property (nonatomic) UIButton * backButton;
+@property (nonatomic, readonly, nonnull) UIButton * backButton;
 
 /**
  *  A view showing the captured image after it has been taken from the camera while processing occurs.
  */
-@property (nonatomic) UIImageView * imagePreview;
+@property (nonatomic, readonly, nonnull) UIImageView * imagePreview;
 
 /**
  *  Live preview of camera feed.
  */
-@property (nonatomic) UIView * cameraView;
+@property (nonatomic, readonly, nonnull) UIView * cameraView;
 
 /**
  *  The state of the camera view.
  */
 @property (nonatomic) PXCameraViewType state;
 
-- (id)init;
+- (nonnull id) init;
 
-- (void)reset;
-- (void)flash;
-- (void)flashOn;
-- (void)flashOff;
+- (void) reset;
+- (void) flash;
+- (void) flashOn;
+- (void) flashOff;
 
-- (void)ensureValidCameraView;
+- (void) ensureValidCameraView;
 
-- (void)setFlashType:(PXFlashType)flashType;
+- (void) setFlashType:(PXFlashType)flashType;
 
 @end

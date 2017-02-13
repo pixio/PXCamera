@@ -33,10 +33,10 @@ typedef NS_ENUM(NSInteger, PXSpanPickerOrientation) {
 
 @interface PXSpanPicker : UIControl
 
-@property (nonatomic) NSString * title;
+@property (nonatomic, nullable) NSString * title;
 @property (nonatomic) NSInteger value;
 @property (nonatomic) BOOL continuous;
-@property (nonatomic) UIColor * contentBackgroundColor;
+@property (nonatomic, nullable) UIColor * contentBackgroundColor;
 @property (nonatomic) BOOL hidden;
 
 - (void) hideAnimated:(BOOL)animated;
@@ -59,6 +59,6 @@ typedef NS_ENUM(NSInteger, PXSpanPickerOrientation) {
  *
  *  @return an array of the individual labels
  */
-- (NSArray*)individualViews;
+- (nonnull NSArray*) individualViews;
 
 @end

@@ -88,17 +88,17 @@ typedef NS_ENUM(NSInteger, PXCameraAuthorizationStatus) {
 /**
  *  Shared singleton.
  */
-+ (instancetype)camera;
++ (nonnull instancetype) camera;
 
 /**
  *  The authorization state of the camera.
  */
-- (PXCameraAuthorizationStatus)cameraAuthorized;
+- (PXCameraAuthorizationStatus) cameraAuthorized;
 
 /**
  *  The authorization state of the photo library.
  */
-- (PXCameraAuthorizationStatus)photosAuthorized;
+- (PXCameraAuthorizationStatus) photosAuthorized;
 
 #pragma mark - Configurable Properties
 #pragma mark Photo Library
@@ -107,19 +107,19 @@ typedef NS_ENUM(NSInteger, PXCameraAuthorizationStatus) {
  *  The color used for the buttons and titles in the navigation bars. 
  *  The default is @c blackColor.
  */
-@property (nonatomic) UIColor * tintColor;
+@property (nonatomic, nullable) UIColor * tintColor;
 
 /**
  *  The bar color used in the navigation bars. The default color is whiteColor;
  */
-@property (nonatomic) UIColor * barTintColor;
+@property (nonatomic, nullable) UIColor * barTintColor;
 
 #pragma mark Camera
 
 /**
  *  The text for the shutter delay in the camera.  The default is @"shutter delay".
  */
-@property (nonatomic) NSString * shutterDelayText;
+@property (nonatomic, nullable) NSString * shutterDelayText;
 
 #pragma mark - Image capture methods
 
@@ -130,8 +130,8 @@ typedef NS_ENUM(NSInteger, PXCameraAuthorizationStatus) {
  *  @param interface  the interface from which to get the image
  *  @param completion a block to run with the retrieved image
  */
-- (void)getImageInViewController:(UIViewController*)vc interface:(PXCameraInterface)interface completion:(void(^)(UIImage*, PXCameraImageSource))completion;
+- (void) getImageInViewController:(nonnull UIViewController*)vc interface:(PXCameraInterface)interface completion:(nullable void(^)(UIImage* _Nullable, PXCameraImageSource))completion;
 
-- (instancetype)init __attribute__((unavailable("use the camera singleton")));
+- (nullable instancetype) init __attribute__((unavailable("use the camera singleton")));
 
 @end
