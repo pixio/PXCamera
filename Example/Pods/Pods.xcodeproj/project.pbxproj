@@ -7,381 +7,474 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0363C74E0B02861E13CC3A6E25A620F3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C9F1B63C9B5959B10AA7A223CBB9ED /* AssetsLibrary.framework */; };
-		04A5FC5F3ACD9646B71EF51025D62B5F /* switch-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A47D7B24D411F8CB1521B9A915B11C98 /* switch-camera@2x.png */; };
-		063B9203D7688DF42D1654C31A27E8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		06E5BE93758009035C26B3BE1C58F8AF /* PXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A06296F1CEB322F405B7AA159AC1814 /* PXCamera.h */; };
-		06F738D4E22960689C2D2DA0D9D54185 /* PXCameraGridLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F00E1CA1096671415638E423F7A617 /* PXCameraGridLayer.h */; };
-		09ADC323FD5AF615DAA3927C778909BF /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E6002CC6A97E4FCE938D80667B6AC /* flash-off.png */; };
-		0B4F0B5E0EC79CCFDF97ED820DEACCD3 /* PXLibraryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 45092CAE5FFCDB5588F35D1BCE3ABE97 /* PXLibraryButton.h */; };
-		1673AFDE883333CAA44E9B50630DE4B8 /* flash-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86ED70AA8D1445DC6C1C64A3509E425 /* flash-on@2x.png */; };
-		17859B9F39BBA73B83CA86B71D97C66D /* Pods-PXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C57A8C679C9F28B2365CB19ACCAF /* Pods-PXCamera-dummy.m */; };
-		1CE96AD72148329FD90A61BF81542190 /* flash-unavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 370FCE5BDA69AA26A505C8419B9995CE /* flash-unavailable@2x.png */; };
-		23F90CF91E0DE383B32954243BA88FAC /* PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA8DAF99D788DF2BED3BE3E0EB64C5 /* PXPinnedRotation-dummy.m */; };
-		247A8713391FD2D55DAE8766338D7272 /* PXCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAEE65EF224E23E3EB7AB644C821E74 /* PXCameraViewController.h */; };
-		26E3DA68458A45C3D56138C7D95965FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB932F5547B9D036899B79F8BBFF91B4 /* UIKit.framework */; };
-		27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */; };
-		2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		30DC59A6931772C2632634E2DEB7B034 /* PXCameraCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC80690A483CFD1DD92A37EEAF3C60B /* PXCameraCaptureManager.m */; };
-		317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */; };
-		36C01B199F81EE16B0D1C9E5B84D4823 /* flash-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B66CE6B721DD44AE9C658B229456A8 /* flash-on.png */; };
-		3B6B70DACB813C1C47684A82319BF49B /* PXCameraGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 934775E609E1614D11B45A72AE25F580 /* PXCameraGridLayer.m */; };
-		3D20B31A6F28B554C160BFFCDCEEE2C0 /* PXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DE37551FED1FE6B41DAFEC180BC9DE /* PXCamera-dummy.m */; };
-		40C00F7467F5D5154AE0547D251C213E /* PXSpanPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C960C447AC6C66189A285CF617EE0C8F /* PXSpanPicker.h */; };
-		495C2F08A2CF7A860CAEE3EFBDC7EBD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB932F5547B9D036899B79F8BBFF91B4 /* UIKit.framework */; };
-		4A610DEF537D4B6D9612439B81EF5929 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA487AF8D33FF8AA8BB057390D27F75 /* close@3x.png */; };
-		4BC8241780C58205F5BF17A2BD9F6785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		4D5CA6F83278A26EAF07A3067F543CEA /* PXPinnedRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E588C0A13CD35B8A8A344ED317A08DB /* PXPinnedRotationViewController.m */; };
-		4FDA6CBCB2743FE1102C01A315B3F6A1 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C2EEEEEA4F35CD577498758FF3FCF2 /* close.png */; };
-		5098C1782855CAC04350723FB7F56BC4 /* PXSpanPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D086849219E412665D675E148C04E17D /* PXSpanPicker.m */; };
-		5151C3AAC749B4877C57C9F3379DC7AD /* PXPinnedRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 116FF9D6955D487EDC3BB5CC2B7962DE /* PXPinnedRotationViewController.h */; };
-		5640C83AD3EA536E881ECA7FD2C03AA7 /* switch-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D97C9B9CAB329C0F91B620D0FD2145 /* switch-camera.png */; };
-		59952CCAE765894978E3A27438F53CBB /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A4D5B21F9D8975C6C22A3864A0D300 /* Pods-Tests-dummy.m */; };
-		5D5012B571F5CE2CEB3759F65588AA81 /* PXCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D436BA786841EB2763D136628F7126 /* PXCameraButton.h */; };
-		5DF15C5ED28BC93AF657323DAF9122E3 /* PXFlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC51DBFD3CB8B8A12FD8F32DDA5B10C /* PXFlashControl.m */; };
-		635D0AD8AB7764809F36D561367D643F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		6526449A1C2B656600FC6875 /* PXCameraPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 652644981C2B656600FC6875 /* PXCameraPreviewView.h */; };
-		6526449B1C2B656600FC6875 /* PXCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652644991C2B656600FC6875 /* PXCameraPreviewView.m */; };
-		71DA1F6E77F0B75589FC5C330CC6D402 /* PXCameraDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA0CFB594C08B4317DF7DA7C724D59B /* PXCameraDisplayView.m */; };
-		734E5651962F17C1AD8B3A4D8FFEFCED /* PXCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */; };
-		7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */; };
-		7C76A679663FB35E246826C5B19074FD /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C21FB76369A42DA78D85C81B024804D /* close@2x.png */; };
-		86727AFAAA63660A1CE0EAC3C0CC7060 /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CEB5E724F1BD9B40A4DF35DB1C0206 /* grid@2x.png */; };
-		89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */; };
-		95538468C40C2F820DE16E0B1458DE68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		95E12D1505C5FAAA77A6589D62A39F1C /* PXImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C5CFA2B7838866E824CD8E0E8915 /* PXImagePickerHelper.m */; };
-		967BD92E0248ADB9B894BD3287CC76D3 /* PXCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */; };
-		9718821AACA60A178D589744CC6AD802 /* PXCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8248A19A53268CF399C5C7F695D4FA3E /* PXCameraView.m */; };
-		9865508D2937FE2DFE6B0FE028DD6CE9 /* PXPinnedRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DACF6F04C5EDC1CFE8B948E2EEA325 /* PXPinnedRotationView.m */; };
-		9E01E0D7F8A0FF6D486F6069B952B5DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F50FB956FA60C0E74ABEF782DCD7C /* AVFoundation.framework */; };
-		A4366F7D1C1974D8EEEF89C323442A8F /* flash-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568242F20CB7BD0E4C01BAE92F9FC7F /* flash-off@2x.png */; };
-		AC417CD35D716FAD09002D8C90D54753 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 054C4FADAEA912813E18EC571A0A654D /* grid.png */; };
-		B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */; };
-		C79659A57E9E00FDE8A11E9216532678 /* PXCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA33DB8542FE0BE38C91019D1D929C0 /* PXCamera.m */; };
-		C86D519AFC84A6C42F0CCF7A6A1A8272 /* PXCameraDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A19603BF3C79B3B985A3BEE0D0540327 /* PXCameraDisplayView.h */; };
-		C95D125D482621FB9339E3D69C305458 /* grid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C1CDEAA4B2225C1D9A4D5E258C72EB /* grid@3x.png */; };
-		D9F408BFEB94182F8A612E888E6B2462 /* PXImagePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 942B0296C136E50E3C0D6C3128745C11 /* PXImagePickerHelper.h */; };
-		E4316D61A36C5378CFE14D1BFD76C8D1 /* flash-auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6799D276985BA5BEC5747FAA43A46A7 /* flash-auto@2x.png */; };
-		ECBFD8169DEA76164EA0B753363DE171 /* PXCameraCaptureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FA785099A6BA713FDC3016A8C6F8D2 /* PXCameraCaptureManager.h */; };
-		EF10F5773B2C6710F4A5A0C0CCE640E9 /* PXFlashControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE06F6F27B66BC5C2D118CF5F5ABC31 /* PXFlashControl.h */; };
-		F01BD3B3D7E4149EDB6BC6E8750B3EA0 /* PXCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC70B82729DC1087EC7850A7EAE16 /* PXCameraButton.m */; };
-		F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */; };
-		F615C314E0D35CBECF9F9266DF331E90 /* PXPinnedRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8595369B6CEE31E356F13C5D26AC94A0 /* PXPinnedRotationView.h */; };
-		F79B27CF5B0DB7DEB6A90A347D49D537 /* PXLibraryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEEC144A7B121D84598F4BDF7A72A63 /* PXLibraryButton.m */; };
-		FAA71BB4CE162D70BB51D83270E54527 /* flash-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 523300DFE0472A9082BC8913FC303F69 /* flash-unavailable.png */; };
-		FB461611E271768A1B1AFDCDC8F9D607 /* flash-auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1C13E67BF6B6E2F3AC0AB1CA7B76D /* flash-auto.png */; };
+		04DE739BCAE011297EA9908E5A2306F2 /* PXCameraDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87634AE4208DA2616FB8925422F001FE /* PXCameraDisplayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		070EEC19ABA1ECC436C7226BC66E97B7 /* PXCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C051162A7C632CECAB952351A065C019 /* PXCameraViewController.m */; };
+		0F04F2BD64F8B75F2E5DB47494C4FC0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */; };
+		0F58FA85CD0224C8104C2CF0DC92F9E9 /* PXImagePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E35FA7FD87DF77ADF0E55EFE37F506 /* PXImagePickerHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12A0DB7CEDD6819F4B0EF5B18891492A /* flash-unavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A100443F40447766C1382AA5987308 /* flash-unavailable@2x.png */; };
+		138569BCCC2EE0D01B9714477F6F8C06 /* flash-auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3752CAF6D41E378C00451043EC3B /* flash-auto.png */; };
+		13985906D8D3C6B477049675FDB8199B /* flash-auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB1EB75E2F0F3156344BF0669DE2FB3 /* flash-auto@2x.png */; };
+		1DBB2D32B0CE98B23EBC7B8492BEC1FD /* flash-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCEF0BACFCA40410C8F8E9847B965E /* flash-unavailable.png */; };
+		1F8CD529F4CCF8055ACC360E3E18D762 /* switch-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D294789D645989275376EA4EDF31EB /* switch-camera.png */; };
+		2021E6924B3EEB55C98C6CBA373ECDCF /* PXCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FB391E82AF000BEBCBC95C88EF0068 /* PXCameraView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		218D7726E2FDFE6F0B0D0601E7B8F436 /* PXCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C538DD1BD4F041883B16BAB1371165 /* PXCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A2018DDB0C9F576EEB0DDE2AAA675B /* grid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B406BD018892DED41451F839AE114EFE /* grid@2x.png */; };
+		28A75F3F2056A883698E09A3D303B7F4 /* PXCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D13E615FF3739CDD70552B55351A6B /* PXCameraPreviewView.m */; };
+		2AB5931D66B78AFCFADC86F1091EE121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CECEEDDFE3A2F704054B025A1295FC /* UIKit.framework */; };
+		337A05D9AEF3FA23C2724E550FC074FA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC1541C159D4E1A206765FAF067C11 /* SVProgressHUD.m */; };
+		3391AE317C0C9992AF821D9627CD9047 /* PXCameraGridLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F783B1AE40B427C6A61088C2F7AE4AE /* PXCameraGridLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3780C407FC71A8D970F3BBE867092C89 /* PXLibraryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1ACC6AF5335CF41B72F7259618081 /* PXLibraryButton.m */; };
+		382A93E599D32ED2D53A3A8496BC8E80 /* PXSpanPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F55B3F9DBB595A94505BBCFDC28E92BC /* PXSpanPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42FA1E714FAA4DFBEAEEF85F014BFAFA /* PXCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED136046BA920EA8CECDA5A450795B91 /* PXCameraView.m */; };
+		4948C9FB4411C28931B4F9F9FAD43BAD /* PXCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B4FE38A2157D268D909BAFAFF3F045 /* PXCameraButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CF3B1C237AA26EB9861A4AD6F218575 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D36B239E5618384D7907FB494F84E1 /* close@3x.png */; };
+		550B8314E25480998F0172BC83B4CDBB /* PXSpanPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C216ED5BA90AAE2D3E2D0179E55189CF /* PXSpanPicker.m */; };
+		5B9F34BD85CCBFD50B81D9C36A4CAF06 /* PXImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0763ABAA2745C4F4CB31E2D97A2CFA26 /* PXImagePickerHelper.m */; };
+		5BEA50B55C8C1379C7C6368918F74ADD /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B69EA18BCB6E9A51EADDA9722A3DD31 /* flash-off.png */; };
+		5DA1FA615B9FFAC8AE9BAB6F4F308F6B /* PXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = A64DB289F3835475AA3FD8FF4E6C543A /* PXCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB61DD1CF6A56597880B8B851192696 /* PXCameraPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6643428B7414EFC86132C8645D7B499E /* PXCameraPreviewView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D19AC1B14A987D88463BD85AF76F8EC /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F905560B3D49A748ECA5C0ED42ED23 /* Pods-Tests-dummy.m */; };
+		6F7DEC318AA6FE0ACEA1D0C67A3044DE /* PXFlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A81911ADA2EB835E39E65276F4202396 /* PXFlashControl.m */; };
+		72D6B49EBBFB38A5252D8D4C2323DFFD /* PXCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 76044B7F41A653C79569D06F04C051F2 /* PXCamera.m */; };
+		7ADFE8ED2C0A3E9DE4ADFBC49ED58A8B /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A2BD4B4D16CCF9A38608EDCDF8E4DA /* grid.png */; };
+		7B1F230F5181268039AD85A0A60B0F48 /* flash-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B315C05E715CDC953286FF4870D967BD /* flash-on@2x.png */; };
+		7E549D2CC7E0F6B4DB37D6B2F85DBD07 /* PXFlashControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C2CDE210906E9539ACBD3814DF7343 /* PXFlashControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83A1CBAC7BF112BEC90DCF22CBA23072 /* PXLibraryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D8AC8A39A5202424BBF7C420E7E282 /* PXLibraryButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8541E6626AF61FA67FC0BB66DBCFFF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */; };
+		8B6108CE6803E9391A60625EA380A6EA /* PXPinnedRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F3D864FBDD7CB759D081EB0877BEEA /* PXPinnedRotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9755F6282AF0155355CEC63B81A67592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */; };
+		998FF4EDFDBAFD71A95B8AAD9A30E10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CECEEDDFE3A2F704054B025A1295FC /* UIKit.framework */; };
+		9BF43C95AD4C2B6F586A25E41BB5CE86 /* PXPinnedRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BA6AA1313CD890CABC5F99FA13FA5E /* PXPinnedRotationView.m */; };
+		9C76202190F1AE1C6899D4AD83E1A67C /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 081481C7E7F23B9D395C1CD06A24924C /* SVProgressHUD-dummy.m */; };
+		9D7B4929BE436E848B504FBEFA622F08 /* grid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30EA0139EA5702E12A7AED9C3213EEFF /* grid@3x.png */; };
+		9DD68BE1093A8C2750B262A520800014 /* PXCameraDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85388EB82076FFC0C03C713884B91EEB /* PXCameraDisplayView.m */; };
+		A045494B0080FB285BA9F165C9AD9EC3 /* switch-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */; };
+		A157EC2D59CE59EB5F792D9FB2803CD8 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D750C51DFF0EE55746FEFC0EF68FC3 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7CCEC549C41F3F2C50440DBC312B31F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724434AF25CB953073FC4F8974B908B /* AVFoundation.framework */; };
+		A8D59FADB67099193F6C102E1C7F6C20 /* PXCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E47E3DDEB76A27899C6BC416BF2A89 /* PXCameraButton.m */; };
+		AAE6EE5EBC11CB0DED6F2A4E0991B4C8 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0064F0C51E2E22AB3E90567D652EC62 /* close@2x.png */; };
+		AD627F186BCF4DD6CB6F1BA89071583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */; };
+		AF822F3B35041FAF96CA02A20DC122AC /* flash-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4261AA76D7D531F4473500516F0A00F /* flash-off@2x.png */; };
+		CB74CDA584C87071621A1B5B542DC6AA /* PXPinnedRotationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6652D25811E4BC9530F6A0452994D816 /* PXPinnedRotationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD188A4BB08B8CDD534CB3F071A1A925 /* PXCameraCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF31E2DF363E63B3E17F7779ADACA5 /* PXCameraCaptureManager.m */; };
+		CE970A32313E455E017CE45B75F34C90 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8076811273FC6C9FEA669CADF5E3E57D /* AssetsLibrary.framework */; };
+		D9F76428E001E0BA7C303FAB03E7DD4C /* PXCameraGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B32745697D6E8D96E04EF63A318677 /* PXCameraGridLayer.m */; };
+		DEEE7D62154927CB366BB4CF2D643302 /* PXPinnedRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785037556E0BE1163C512E8FA57DF6F4 /* PXPinnedRotation-dummy.m */; };
+		DF8507E94747D2DA530CC6CDF98417F3 /* PXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A90C894A3A75316A4AA9B312ED547 /* PXCamera-dummy.m */; };
+		E03AC53D448DA945FD2E82EED3800CFA /* PXPinnedRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F23F100A39DE2C8FC3A9F1BE53E45 /* PXPinnedRotationViewController.m */; };
+		E34C97F99AE5A8013D0CD622FCBA11C5 /* flash-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA5DF40AB3CE9344CB306230BDBA9B /* flash-on.png */; };
+		E6857B7FE8FC5BE12721AA8B96D2251C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBD731DEE9532D074A2E9EC18556DD /* QuartzCore.framework */; };
+		F8366BD63EB6C6EC163A6CA71B61D38F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */; };
+		F8782E92920C45377AC6B68537FDE371 /* Pods-PXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A56D1E1703650AE05980C530628AA6 /* Pods-PXCamera-dummy.m */; };
+		F9FAB8FF02B1AF3ACC7176D7BD67C001 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BD1ADB47BF687D50483D23E9AE7520 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2D3759B62E76D0E51CF47D64C65C08 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E68200A9CDA63FE8B5A448F4B7387595 /* close.png */; };
+		FE22C0C2204568EE3C1004D1CCC57909 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A224965B8091E67708F4C07476E177CF /* SVIndefiniteAnimatedView.m */; };
+		FE8F65631D568A00261834A49F0590C9 /* PXCameraCaptureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2E4A9AC73DE57EBAD47F5BC4886751 /* PXCameraCaptureManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02AEE1A0CE33771880B5F259457ACADB /* PBXContainerItemProxy */ = {
+		0F69376DD63E2474C90E7A1B192D2C93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B281DA29A9C3EDFB45BA53651F6BA611;
-			remoteInfo = SVProgressHUD;
-		};
-		1732C5650D6D6CCB14311D03B681DA89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BE85D741E718414462FA91996857A55;
+			remoteGlobalIDString = 5A2424F3536B838F20E572A6650B62CF;
 			remoteInfo = PXPinnedRotation;
 		};
-		1B31ECECC31BB055C0896B3B2C0DCA36 /* PBXContainerItemProxy */ = {
+		2985BDD722C7E9A4313243F39DEB1D61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD44B55F306FF19DE3715FFC6FD9A7B4;
-			remoteInfo = "PXPinnedRotation-PXPinnedRotation";
-		};
-		1C43BDB13252CC13E2641A11FE8582F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23C2B540EB3105C069C75BC4808C1EE6;
-			remoteInfo = PXCamera;
-		};
-		1F12154818E66A1084D40061784CD2C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B281DA29A9C3EDFB45BA53651F6BA611;
-			remoteInfo = SVProgressHUD;
-		};
-		50E8CEFC3AF5B144A9BB7B42739043A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C57E2C53AED20921E3D980119DB2E53B;
+			remoteGlobalIDString = 1F32985CDCF588CB4E1D62568E47CF88;
 			remoteInfo = "PXCamera-PXCamera";
 		};
-		59464FE6E9BAFD2552BC132F919C36F5 /* PBXContainerItemProxy */ = {
+		54E33F462C243F032BAB0E8C170F6CB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BE85D741E718414462FA91996857A55;
-			remoteInfo = PXPinnedRotation;
+			remoteGlobalIDString = 3B4A9B824C54E09F8E3D3065B9FB5127;
+			remoteInfo = PXCamera;
 		};
-		9A362CF55EE24530780004E7B509EAE4 /* PBXContainerItemProxy */ = {
+		6EA10745D057E1E3630F892F02EFA99B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BE85D741E718414462FA91996857A55;
-			remoteInfo = PXPinnedRotation;
+			remoteGlobalIDString = A35516DC4EB75862CAC337687A9F02FA;
+			remoteInfo = "PXPinnedRotation-PXPinnedRotation";
 		};
-		A49E1E671FA40C9090DA2ED6359D89BC /* PBXContainerItemProxy */ = {
+		6FC4AF99483B829A5FC7C93A4C98CE5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B281DA29A9C3EDFB45BA53651F6BA611;
+			remoteGlobalIDString = AF998661254A44F6E066A41D67746637;
 			remoteInfo = SVProgressHUD;
 		};
-		E1B7E1A2E1FDAEC808D625CE1EC04A7A /* PBXContainerItemProxy */ = {
+		9E55AD8A4491F2A1D587668F7EEAD0C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 23C2B540EB3105C069C75BC4808C1EE6;
+			remoteGlobalIDString = 5A2424F3536B838F20E572A6650B62CF;
+			remoteInfo = PXPinnedRotation;
+		};
+		C270858201ADA9BF0C93576D8439A548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2424F3536B838F20E572A6650B62CF;
+			remoteInfo = PXPinnedRotation;
+		};
+		CEADFDCE03917C50E8D25467E9B5FE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF998661254A44F6E066A41D67746637;
+			remoteInfo = SVProgressHUD;
+		};
+		E0D462711EDAA0C9C8949637E42AA802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF998661254A44F6E066A41D67746637;
+			remoteInfo = SVProgressHUD;
+		};
+		EB3D5EBFDEEB6D1FE5CBC61C4F26BFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4A9B824C54E09F8E3D3065B9FB5127;
 			remoteInfo = PXCamera;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		0471048EDDDF0A6FBAB4692FAF6DCE0C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		054C4FADAEA912813E18EC571A0A654D /* grid.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
-		116FF9D6955D487EDC3BB5CC2B7962DE /* PXPinnedRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationViewController.h; path = Pod/Classes/PXPinnedRotationViewController.h; sourceTree = "<group>"; };
-		13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1568242F20CB7BD0E4C01BAE92F9FC7F /* flash-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-off@2x.png"; sourceTree = "<group>"; };
-		15D436BA786841EB2763D136628F7126 /* PXCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraButton.h; sourceTree = "<group>"; };
-		1C21FB76369A42DA78D85C81B024804D /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
-		1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXCamera-Private.xcconfig"; sourceTree = "<group>"; };
-		248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2E588C0A13CD35B8A8A344ED317A08DB /* PXPinnedRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationViewController.m; path = Pod/Classes/PXPinnedRotationViewController.m; sourceTree = "<group>"; };
-		31B54EA0E38B58EB5F09F38C99CAC0A7 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31FA785099A6BA713FDC3016A8C6F8D2 /* PXCameraCaptureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraCaptureManager.h; sourceTree = "<group>"; };
-		34F00E1CA1096671415638E423F7A617 /* PXCameraGridLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraGridLayer.h; sourceTree = "<group>"; };
-		366008944DE9E44B4E189610BCE5CB14 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		370FCE5BDA69AA26A505C8419B9995CE /* flash-unavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-unavailable@2x.png"; sourceTree = "<group>"; };
-		3DC247BC11FFE42C5A6C73F55E006258 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
-		421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		45092CAE5FFCDB5588F35D1BCE3ABE97 /* PXLibraryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXLibraryButton.h; sourceTree = "<group>"; };
-		497F768C9763E18AFFCBF61D8C18C4B3 /* PXCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXCamera-prefix.pch"; sourceTree = "<group>"; };
-		4E7756103585D24C46F68E3EE54BF027 /* PXPinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EDD2137B1775276996A7B8AE67952FD /* Pods-PXCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCamera-resources.sh"; sourceTree = "<group>"; };
-		4FD4E8DCE8E184E437D2C91C2FE41CF8 /* libPods-PXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		523300DFE0472A9082BC8913FC303F69 /* flash-unavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-unavailable.png"; sourceTree = "<group>"; };
-		54DE37551FED1FE6B41DAFEC180BC9DE /* PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCamera-dummy.m"; sourceTree = "<group>"; };
-		5F313F3458A2A4BB0708D983AA28B4FB /* Pods-PXCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.release.xcconfig"; sourceTree = "<group>"; };
-		63984FE45AFD4477A1EBBC63E5E3F8B9 /* PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
-		652644981C2B656600FC6875 /* PXCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXCameraPreviewView.h; sourceTree = "<group>"; };
-		652644991C2B656600FC6875 /* PXCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXCameraPreviewView.m; sourceTree = "<group>"; };
-		6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraView.h; sourceTree = "<group>"; };
-		6E3F50FB956FA60C0E74ABEF782DCD7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		70C2EEEEEA4F35CD577498758FF3FCF2 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
-		76C1CDEAA4B2225C1D9A4D5E258C72EB /* grid@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "grid@3x.png"; sourceTree = "<group>"; };
-		79A61AE07E25419B9C8019C22B571101 /* libPXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXPinnedRotation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FC1C13E67BF6B6E2F3AC0AB1CA7B76D /* flash-auto.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-auto.png"; sourceTree = "<group>"; };
-		8248A19A53268CF399C5C7F695D4FA3E /* PXCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraView.m; sourceTree = "<group>"; };
-		8371E5DD6AB6337E2DFBD5DF78C0DFBA /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		8595369B6CEE31E356F13C5D26AC94A0 /* PXPinnedRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationView.h; path = Pod/Classes/PXPinnedRotationView.h; sourceTree = "<group>"; };
-		89CEB5E724F1BD9B40A4DF35DB1C0206 /* grid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "grid@2x.png"; sourceTree = "<group>"; };
-		8A06296F1CEB322F405B7AA159AC1814 /* PXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCamera.h; sourceTree = "<group>"; };
-		8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXPinnedRotation-Private.xcconfig"; sourceTree = "<group>"; };
-		8AA487AF8D33FF8AA8BB057390D27F75 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
-		914C80A26625FB913B1D2996356066A6 /* PXPinnedRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPinnedRotation.xcconfig; sourceTree = "<group>"; };
-		934775E609E1614D11B45A72AE25F580 /* PXCameraGridLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraGridLayer.m; sourceTree = "<group>"; };
-		942B0296C136E50E3C0D6C3128745C11 /* PXImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXImagePickerHelper.h; sourceTree = "<group>"; };
-		9A5E6002CC6A97E4FCE938D80667B6AC /* flash-off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-off.png"; sourceTree = "<group>"; };
-		9BB75EEE50D2966412E23B3DAA2F9D47 /* Pods-PXCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.debug.xcconfig"; sourceTree = "<group>"; };
-		A19603BF3C79B3B985A3BEE0D0540327 /* PXCameraDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraDisplayView.h; sourceTree = "<group>"; };
-		A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		A2C9F1B63C9B5959B10AA7A223CBB9ED /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		A47D7B24D411F8CB1521B9A915B11C98 /* switch-camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "switch-camera@2x.png"; sourceTree = "<group>"; };
-		A6799D276985BA5BEC5747FAA43A46A7 /* flash-auto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
-		A6DACF6F04C5EDC1CFE8B948E2EEA325 /* PXPinnedRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationView.m; path = Pod/Classes/PXPinnedRotationView.m; sourceTree = "<group>"; };
-		A7FEC70B82729DC1087EC7850A7EAE16 /* PXCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraButton.m; sourceTree = "<group>"; };
-		ABC17266C9D13AB114B5499CCACF3036 /* PXCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXCamera.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC10C5CFA2B7838866E824CD8E0E8915 /* PXImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXImagePickerHelper.m; sourceTree = "<group>"; };
-		ACA33DB8542FE0BE38C91019D1D929C0 /* PXCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCamera.m; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAD135E41DB1875FFDAA4E277C213606 /* Pods-PXCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXCamera-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB932F5547B9D036899B79F8BBFF91B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BEE06F6F27B66BC5C2D118CF5F5ABC31 /* PXFlashControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXFlashControl.h; sourceTree = "<group>"; };
-		BFC51DBFD3CB8B8A12FD8F32DDA5B10C /* PXFlashControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXFlashControl.m; sourceTree = "<group>"; };
-		C1CAAE6911BF21D5747E783020CF871C /* libPXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6A4D5B21F9D8975C6C22A3864A0D300 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		C960C447AC6C66189A285CF617EE0C8F /* PXSpanPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXSpanPicker.h; sourceTree = "<group>"; };
-		CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		CDA0CFB594C08B4317DF7DA7C724D59B /* PXCameraDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraDisplayView.m; sourceTree = "<group>"; };
-		CDC80690A483CFD1DD92A37EEAF3C60B /* PXCameraCaptureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraCaptureManager.m; sourceTree = "<group>"; };
-		D086849219E412665D675E148C04E17D /* PXSpanPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXSpanPicker.m; sourceTree = "<group>"; };
-		D2DA8DAF99D788DF2BED3BE3E0EB64C5 /* PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
-		D3411178FCAE03A5BE13D8008FD46C3E /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraViewController.m; sourceTree = "<group>"; };
-		D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		E46458153DEB64BC66CFD2344F070938 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		E8B66CE6B721DD44AE9C658B229456A8 /* flash-on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-on.png"; sourceTree = "<group>"; };
-		ECEDF980C259247F44494D9C1EFD361B /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE6CE13FF330E407B8B5A6B66993BDF8 /* PXCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXCamera.xcconfig; sourceTree = "<group>"; };
-		F3D97C9B9CAB329C0F91B620D0FD2145 /* switch-camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "switch-camera.png"; sourceTree = "<group>"; };
-		F86ED70AA8D1445DC6C1C64A3509E425 /* flash-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flash-on@2x.png"; sourceTree = "<group>"; };
-		F8C3C57A8C679C9F28B2365CB19ACCAF /* Pods-PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXCamera-dummy.m"; sourceTree = "<group>"; };
-		FA778AEE3016E00EF97641BC3F7A7445 /* Pods-PXCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAAEE65EF224E23E3EB7AB644C821E74 /* PXCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraViewController.h; sourceTree = "<group>"; };
-		FCEEC144A7B121D84598F4BDF7A72A63 /* PXLibraryButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXLibraryButton.m; sourceTree = "<group>"; };
-		FDEF9E9E6130A5BD0D3AB9464D9BBF58 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		013D3556BE7BD642E18BE8338DE772C1 /* libPods-PXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXCamera.a"; path = "libPods-PXCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		027F23F100A39DE2C8FC3A9F1BE53E45 /* PXPinnedRotationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationViewController.m; path = Pod/Classes/PXPinnedRotationViewController.m; sourceTree = "<group>"; };
+		02FB391E82AF000BEBCBC95C88EF0068 /* PXCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraView.h; sourceTree = "<group>"; };
+		04BD1ADB47BF687D50483D23E9AE7520 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		0763ABAA2745C4F4CB31E2D97A2CFA26 /* PXImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXImagePickerHelper.m; sourceTree = "<group>"; };
+		07A2BD4B4D16CCF9A38608EDCDF8E4DA /* grid.png */ = {isa = PBXFileReference; includeInIndex = 1; path = grid.png; sourceTree = "<group>"; };
+		081481C7E7F23B9D395C1CD06A24924C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0AC9478C2146A6AD731BD70C71694DC3 /* PXCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXCamera.bundle; path = PXCamera.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2E4A9AC73DE57EBAD47F5BC4886751 /* PXCameraCaptureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraCaptureManager.h; sourceTree = "<group>"; };
+		10D8AC8A39A5202424BBF7C420E7E282 /* PXLibraryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXLibraryButton.h; sourceTree = "<group>"; };
+		13D36B239E5618384D7907FB494F84E1 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "close@3x.png"; sourceTree = "<group>"; };
+		14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "switch-camera@2x.png"; sourceTree = "<group>"; };
+		1535D4C728AA3450E37A5E98A5B996E0 /* PXPinnedRotation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXPinnedRotation.bundle; path = PXPinnedRotation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A100443F40447766C1382AA5987308 /* flash-unavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-unavailable@2x.png"; sourceTree = "<group>"; };
+		20D750C51DFF0EE55746FEFC0EF68FC3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		22C538DD1BD4F041883B16BAB1371165 /* PXCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraViewController.h; sourceTree = "<group>"; };
+		2C7A90C894A3A75316A4AA9B312ED547 /* PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCamera-dummy.m"; sourceTree = "<group>"; };
+		30EA0139EA5702E12A7AED9C3213EEFF /* grid@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "grid@3x.png"; sourceTree = "<group>"; };
+		34BC1541C159D4E1A206765FAF067C11 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		3676F21A3288ACA9B5BEEF0942364F43 /* Pods-PXCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCamera-frameworks.sh"; sourceTree = "<group>"; };
+		4194FFF696B9846F7F51B6ABAF36B186 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4233342BD8BC911D55942A220B43F5A9 /* PXCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXCamera-prefix.pch"; sourceTree = "<group>"; };
+		4654CA585382F68E1C6C18DA8AB2EF2F /* ResourceBundle-PXCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXCamera-Info.plist"; sourceTree = "<group>"; };
+		48E35FA7FD87DF77ADF0E55EFE37F506 /* PXImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXImagePickerHelper.h; sourceTree = "<group>"; };
+		4B30D6C2A1B00E9D73721E13DC10BFB7 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B69EA18BCB6E9A51EADDA9722A3DD31 /* flash-off.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-off.png"; sourceTree = "<group>"; };
+		4BFA5DF40AB3CE9344CB306230BDBA9B /* flash-on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-on.png"; sourceTree = "<group>"; };
+		4D112B37E2FCEFFC9439046541838555 /* Pods-PXCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.release.xcconfig"; sourceTree = "<group>"; };
+		51C2CDE210906E9539ACBD3814DF7343 /* PXFlashControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXFlashControl.h; sourceTree = "<group>"; };
+		58BA6AA1313CD890CABC5F99FA13FA5E /* PXPinnedRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPinnedRotationView.m; path = Pod/Classes/PXPinnedRotationView.m; sourceTree = "<group>"; };
+		5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPinnedRotation.xcconfig; sourceTree = "<group>"; };
+		5F4AA96BCCD8A5F328C58BE8C390D380 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		6643428B7414EFC86132C8645D7B499E /* PXCameraPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraPreviewView.h; sourceTree = "<group>"; };
+		6652D25811E4BC9530F6A0452994D816 /* PXPinnedRotationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationViewController.h; path = Pod/Classes/PXPinnedRotationViewController.h; sourceTree = "<group>"; };
+		66B3F454BD328F981D88F9700F3346AF /* Pods-PXCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ECCEF0BACFCA40410C8F8E9847B965E /* flash-unavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-unavailable.png"; sourceTree = "<group>"; };
+		7153E5A9463F5E6B47B655141DD1686B /* Pods-PXCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		76044B7F41A653C79569D06F04C051F2 /* PXCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCamera.m; sourceTree = "<group>"; };
+		785037556E0BE1163C512E8FA57DF6F4 /* PXPinnedRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPinnedRotation-dummy.m"; sourceTree = "<group>"; };
+		79B4FE38A2157D268D909BAFAFF3F045 /* PXCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraButton.h; sourceTree = "<group>"; };
+		7B2C3752CAF6D41E378C00451043EC3B /* flash-auto.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-auto.png"; sourceTree = "<group>"; };
+		8076811273FC6C9FEA669CADF5E3E57D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		80A5C2EE271197BB4B4511A740388C14 /* ResourceBundle-PXPinnedRotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXPinnedRotation-Info.plist"; sourceTree = "<group>"; };
+		82CECEEDDFE3A2F704054B025A1295FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		85388EB82076FFC0C03C713884B91EEB /* PXCameraDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraDisplayView.m; sourceTree = "<group>"; };
+		87634AE4208DA2616FB8925422F001FE /* PXCameraDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraDisplayView.h; sourceTree = "<group>"; };
+		8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXCamera.xcconfig; sourceTree = "<group>"; };
+		8DE5EEF273212FADEB874B393FEB83A6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F783B1AE40B427C6A61088C2F7AE4AE /* PXCameraGridLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCameraGridLayer.h; sourceTree = "<group>"; };
+		904D597C086E0520ADFDE7BE4FFBD1C4 /* PXPinnedRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPinnedRotation-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E47E3DDEB76A27899C6BC416BF2A89 /* PXCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraButton.m; sourceTree = "<group>"; };
+		9724434AF25CB953073FC4F8974B908B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		97A56D1E1703650AE05980C530628AA6 /* Pods-PXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXCamera-dummy.m"; sourceTree = "<group>"; };
+		9AE854EAB639C16887FC8CE453FFECD9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A224965B8091E67708F4C07476E177CF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A64DB289F3835475AA3FD8FF4E6C543A /* PXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXCamera.h; sourceTree = "<group>"; };
+		A70BF87F81B7D7A84EC06BDDE98DFD7C /* libPXPinnedRotation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXPinnedRotation.a; path = libPXPinnedRotation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81911ADA2EB835E39E65276F4202396 /* PXFlashControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXFlashControl.m; sourceTree = "<group>"; };
+		ACFBD731DEE9532D074A2E9EC18556DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B315C05E715CDC953286FF4870D967BD /* flash-on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-on@2x.png"; sourceTree = "<group>"; };
+		B406BD018892DED41451F839AE114EFE /* grid@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "grid@2x.png"; sourceTree = "<group>"; };
+		B82A94EF563C0BDF14DAB4AE6A50CC4A /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9D18BBE07A15871E000E4E2554C0225 /* Pods-PXCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXCamera-resources.sh"; sourceTree = "<group>"; };
+		C051162A7C632CECAB952351A065C019 /* PXCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraViewController.m; sourceTree = "<group>"; };
+		C216ED5BA90AAE2D3E2D0179E55189CF /* PXSpanPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXSpanPicker.m; sourceTree = "<group>"; };
+		C4261AA76D7D531F4473500516F0A00F /* flash-off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-off@2x.png"; sourceTree = "<group>"; };
+		C7FF31E2DF363E63B3E17F7779ADACA5 /* PXCameraCaptureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraCaptureManager.m; sourceTree = "<group>"; };
+		C8F3D864FBDD7CB759D081EB0877BEEA /* PXPinnedRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPinnedRotationView.h; path = Pod/Classes/PXPinnedRotationView.h; sourceTree = "<group>"; };
+		CCE1ACC6AF5335CF41B72F7259618081 /* PXLibraryButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXLibraryButton.m; sourceTree = "<group>"; };
+		D0B32745697D6E8D96E04EF63A318677 /* PXCameraGridLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraGridLayer.m; sourceTree = "<group>"; };
+		D1AD97261E60F4523C7546BE67CBD29D /* Pods-PXCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1D294789D645989275376EA4EDF31EB /* switch-camera.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "switch-camera.png"; sourceTree = "<group>"; };
+		D55B24497AD786556565EFC9E500A0AA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D13E615FF3739CDD70552B55351A6B /* PXCameraPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraPreviewView.m; sourceTree = "<group>"; };
+		D89911A58DA8B2B6A47C6FE37C119FDC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		DBEACA7460E20BD64639EBEE54CB5366 /* libPXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXCamera.a; path = libPXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB1EB75E2F0F3156344BF0669DE2FB3 /* flash-auto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "flash-auto@2x.png"; sourceTree = "<group>"; };
+		DE9BBD4F31F8B3FF969EEEDF6619C191 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F905560B3D49A748ECA5C0ED42ED23 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		E516F01CEAE3ABB233F74914228DC610 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68200A9CDA63FE8B5A448F4B7387595 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; path = close.png; sourceTree = "<group>"; };
+		ED136046BA920EA8CECDA5A450795B91 /* PXCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXCameraView.m; sourceTree = "<group>"; };
+		EE0A85D3498A67AD6B82D4E5CBA343E5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0064F0C51E2E22AB3E90567D652EC62 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "close@2x.png"; sourceTree = "<group>"; };
+		F55B3F9DBB595A94505BBCFDC28E92BC /* PXSpanPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXSpanPicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01F4ED3D8F4FCFE8B315A474CFB9A08F /* Frameworks */ = {
+		61FDA2D52690F0626CEAF88265499B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD627F186BCF4DD6CB6F1BA89071583D /* Foundation.framework in Frameworks */,
+				E6857B7FE8FC5BE12721AA8B96D2251C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31B4B6D2A279A976CAAAE9625493E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE970A32313E455E017CE45B75F34C90 /* AssetsLibrary.framework in Frameworks */,
+				A7CCEC549C41F3F2C50440DBC312B31F /* AVFoundation.framework in Frameworks */,
+				0F04F2BD64F8B75F2E5DB47494C4FC0E /* Foundation.framework in Frameworks */,
+				2AB5931D66B78AFCFADC86F1091EE121 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C21F585F67F0E83AEF219BCB249ACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04D847CCF07A4DA71699A2FB98594CBB /* Frameworks */ = {
+		C45A501EF4B125C62979C939C418EFDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC8241780C58205F5BF17A2BD9F6785 /* Foundation.framework in Frameworks */,
-				495C2F08A2CF7A860CAEE3EFBDC7EBD3 /* UIKit.framework in Frameworks */,
+				F8366BD63EB6C6EC163A6CA71B61D38F /* Foundation.framework in Frameworks */,
+				998FF4EDFDBAFD71A95B8AAD9A30E10E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		383B4BF839254A82265A1E6D540C9F3F /* Frameworks */ = {
+		C5DF7E9EE7F7B17F41CF87680DAFFAB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */,
-				317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */,
+				9755F6282AF0155355CEC63B81A67592 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		556F106A3BD31E917A2781A0A637E57B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				063B9203D7688DF42D1654C31A27E8E1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		977900C2800F42DBDE74BD7D180CC881 /* Frameworks */ = {
+		E6893B2DF47B03580BBF98D7B4EFD0B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4122B7359FBBE8B818E23B0A549087D /* Frameworks */ = {
+		ED4B1778A539EE7842465B9D59739E35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E01E0D7F8A0FF6D486F6069B952B5DF /* AVFoundation.framework in Frameworks */,
-				0363C74E0B02861E13CC3A6E25A620F3 /* AssetsLibrary.framework in Frameworks */,
-				95538468C40C2F820DE16E0B1458DE68 /* Foundation.framework in Frameworks */,
-				26E3DA68458A45C3D56138C7D95965FE /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA869F3DD7EF6F03D1DA7560EE02CC7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				635D0AD8AB7764809F36D561367D643F /* Foundation.framework in Frameworks */,
+				8541E6626AF61FA67FC0BB66DBCFFF2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07D11B0AAA594661F244764082549D72 /* Support Files */ = {
+		02678D64768EFD938E58D379896DBC62 /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				366008944DE9E44B4E189610BCE5CB14 /* SVProgressHUD.xcconfig */,
-				41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */,
-				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
-				E46458153DEB64BC66CFD2344F070938 /* SVProgressHUD-prefix.pch */,
+				B82A94EF563C0BDF14DAB4AE6A50CC4A /* Pods-Tests-acknowledgements.markdown */,
+				EE0A85D3498A67AD6B82D4E5CBA343E5 /* Pods-Tests-acknowledgements.plist */,
+				E1F905560B3D49A748ECA5C0ED42ED23 /* Pods-Tests-dummy.m */,
+				4B30D6C2A1B00E9D73721E13DC10BFB7 /* Pods-Tests-frameworks.sh */,
+				D89911A58DA8B2B6A47C6FE37C119FDC /* Pods-Tests-resources.sh */,
+				8DE5EEF273212FADEB874B393FEB83A6 /* Pods-Tests.debug.xcconfig */,
+				D55B24497AD786556565EFC9E500A0AA /* Pods-Tests.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		0517D8CF7A780CE397A8BEC0E85E7015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4194FFF696B9846F7F51B6ABAF36B186 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		086B997CCF2FAAA4A3740C3CCB570BFE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				70C2EEEEEA4F35CD577498758FF3FCF2 /* close.png */,
-				1C21FB76369A42DA78D85C81B024804D /* close@2x.png */,
-				8AA487AF8D33FF8AA8BB057390D27F75 /* close@3x.png */,
-				7FC1C13E67BF6B6E2F3AC0AB1CA7B76D /* flash-auto.png */,
-				A6799D276985BA5BEC5747FAA43A46A7 /* flash-auto@2x.png */,
-				9A5E6002CC6A97E4FCE938D80667B6AC /* flash-off.png */,
-				1568242F20CB7BD0E4C01BAE92F9FC7F /* flash-off@2x.png */,
-				E8B66CE6B721DD44AE9C658B229456A8 /* flash-on.png */,
-				F86ED70AA8D1445DC6C1C64A3509E425 /* flash-on@2x.png */,
-				523300DFE0472A9082BC8913FC303F69 /* flash-unavailable.png */,
-				370FCE5BDA69AA26A505C8419B9995CE /* flash-unavailable@2x.png */,
-				054C4FADAEA912813E18EC571A0A654D /* grid.png */,
-				89CEB5E724F1BD9B40A4DF35DB1C0206 /* grid@2x.png */,
-				76C1CDEAA4B2225C1D9A4D5E258C72EB /* grid@3x.png */,
-				F3D97C9B9CAB329C0F91B620D0FD2145 /* switch-camera.png */,
-				A47D7B24D411F8CB1521B9A915B11C98 /* switch-camera@2x.png */,
+				E68200A9CDA63FE8B5A448F4B7387595 /* close.png */,
+				F0064F0C51E2E22AB3E90567D652EC62 /* close@2x.png */,
+				13D36B239E5618384D7907FB494F84E1 /* close@3x.png */,
+				7B2C3752CAF6D41E378C00451043EC3B /* flash-auto.png */,
+				DCB1EB75E2F0F3156344BF0669DE2FB3 /* flash-auto@2x.png */,
+				4B69EA18BCB6E9A51EADDA9722A3DD31 /* flash-off.png */,
+				C4261AA76D7D531F4473500516F0A00F /* flash-off@2x.png */,
+				4BFA5DF40AB3CE9344CB306230BDBA9B /* flash-on.png */,
+				B315C05E715CDC953286FF4870D967BD /* flash-on@2x.png */,
+				6ECCEF0BACFCA40410C8F8E9847B965E /* flash-unavailable.png */,
+				19A100443F40447766C1382AA5987308 /* flash-unavailable@2x.png */,
+				07A2BD4B4D16CCF9A38608EDCDF8E4DA /* grid.png */,
+				B406BD018892DED41451F839AE114EFE /* grid@2x.png */,
+				30EA0139EA5702E12A7AED9C3213EEFF /* grid@3x.png */,
+				D1D294789D645989275376EA4EDF31EB /* switch-camera.png */,
+				14385CC7C7F483C43E2B16954AFCDFD2 /* switch-camera@2x.png */,
 			);
+			name = Assets;
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		11A9240C39B3F3F0F4C636F034AB51DA /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				20D750C51DFF0EE55746FEFC0EF68FC3 /* SVIndefiniteAnimatedView.h */,
+				A224965B8091E67708F4C07476E177CF /* SVIndefiniteAnimatedView.m */,
+				04BD1ADB47BF687D50483D23E9AE7520 /* SVProgressHUD.h */,
+				34BC1541C159D4E1A206765FAF067C11 /* SVProgressHUD.m */,
+				0517D8CF7A780CE397A8BEC0E85E7015 /* Resources */,
+				A63FD7E9CC6ECFD11D73CFB0CAF2EF1C /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FDF37E2984E4C208FF097C8B0B4D64D9 /* iOS */,
+				384CCD14EA21FFC52DB7294C721049C5 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		43201DEE5BD6B6EF219412A2A0530CD0 /* Targets Support Files */ = {
+		239D85F7181F839DDC456A428F603E05 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9BB8D60E4A2D202869E86590D181B3D8 /* Pods-PXCamera */,
-				A85291EC8FA7716F01806AFEDF7276D4 /* Pods-Tests */,
+				8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */,
+				2C7A90C894A3A75316A4AA9B312ED547 /* PXCamera-dummy.m */,
+				4233342BD8BC911D55942A220B43F5A9 /* PXCamera-prefix.pch */,
+				4654CA585382F68E1C6C18DA8AB2EF2F /* ResourceBundle-PXCamera-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXCamera";
+			sourceTree = "<group>";
+		};
+		2C84AA7FC538EAB26F394D4F667308EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4123385B32C8E43C890F9C04CDB6558D /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		384CCD14EA21FFC52DB7294C721049C5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8076811273FC6C9FEA669CADF5E3E57D /* AssetsLibrary.framework */,
+				9724434AF25CB953073FC4F8974B908B /* AVFoundation.framework */,
+				6AC449D9CC66D0E70FFCA8E9C847EBAB /* Foundation.framework */,
+				ACFBD731DEE9532D074A2E9EC18556DD /* QuartzCore.framework */,
+				82CECEEDDFE3A2F704054B025A1295FC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4120C69EC2F3D3364624BBD6C7107B9D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA93AD52B136C7953534C57D296D180 /* Pods-PXCamera */,
+				02678D64768EFD938E58D379896DBC62 /* Pods-Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4B38EA84BE40BEF330D976E60BE279F9 /* Support Files */ = {
+		4123385B32C8E43C890F9C04CDB6558D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				914C80A26625FB913B1D2996356066A6 /* PXPinnedRotation.xcconfig */,
-				8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */,
-				D2DA8DAF99D788DF2BED3BE3E0EB64C5 /* PXPinnedRotation-dummy.m */,
-				63984FE45AFD4477A1EBBC63E5E3F8B9 /* PXPinnedRotation-prefix.pch */,
+				A64DB289F3835475AA3FD8FF4E6C543A /* PXCamera.h */,
+				76044B7F41A653C79569D06F04C051F2 /* PXCamera.m */,
+				79B4FE38A2157D268D909BAFAFF3F045 /* PXCameraButton.h */,
+				94E47E3DDEB76A27899C6BC416BF2A89 /* PXCameraButton.m */,
+				0B2E4A9AC73DE57EBAD47F5BC4886751 /* PXCameraCaptureManager.h */,
+				C7FF31E2DF363E63B3E17F7779ADACA5 /* PXCameraCaptureManager.m */,
+				87634AE4208DA2616FB8925422F001FE /* PXCameraDisplayView.h */,
+				85388EB82076FFC0C03C713884B91EEB /* PXCameraDisplayView.m */,
+				8F783B1AE40B427C6A61088C2F7AE4AE /* PXCameraGridLayer.h */,
+				D0B32745697D6E8D96E04EF63A318677 /* PXCameraGridLayer.m */,
+				6643428B7414EFC86132C8645D7B499E /* PXCameraPreviewView.h */,
+				D5D13E615FF3739CDD70552B55351A6B /* PXCameraPreviewView.m */,
+				02FB391E82AF000BEBCBC95C88EF0068 /* PXCameraView.h */,
+				ED136046BA920EA8CECDA5A450795B91 /* PXCameraView.m */,
+				22C538DD1BD4F041883B16BAB1371165 /* PXCameraViewController.h */,
+				C051162A7C632CECAB952351A065C019 /* PXCameraViewController.m */,
+				51C2CDE210906E9539ACBD3814DF7343 /* PXFlashControl.h */,
+				A81911ADA2EB835E39E65276F4202396 /* PXFlashControl.m */,
+				48E35FA7FD87DF77ADF0E55EFE37F506 /* PXImagePickerHelper.h */,
+				0763ABAA2745C4F4CB31E2D97A2CFA26 /* PXImagePickerHelper.m */,
+				10D8AC8A39A5202424BBF7C420E7E282 /* PXLibraryButton.h */,
+				CCE1ACC6AF5335CF41B72F7259618081 /* PXLibraryButton.m */,
+				F55B3F9DBB595A94505BBCFDC28E92BC /* PXSpanPicker.h */,
+				C216ED5BA90AAE2D3E2D0179E55189CF /* PXSpanPicker.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PXPinnedRotation";
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C1232496181E973B63591AC2B55F0B91 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				9E06EDFB7B08B5F8764E3C9F0B5320C4 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				43201DEE5BD6B6EF219412A2A0530CD0 /* Targets Support Files */,
+				DADF7342DC3C2F28FE064FDB196C25E3 /* Products */,
+				4120C69EC2F3D3364624BBD6C7107B9D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9BB8D60E4A2D202869E86590D181B3D8 /* Pods-PXCamera */ = {
+		8A9B8752C21E124B24EC835144B1E3DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA778AEE3016E00EF97641BC3F7A7445 /* Pods-PXCamera-acknowledgements.markdown */,
-				BAD135E41DB1875FFDAA4E277C213606 /* Pods-PXCamera-acknowledgements.plist */,
-				F8C3C57A8C679C9F28B2365CB19ACCAF /* Pods-PXCamera-dummy.m */,
-				4EDD2137B1775276996A7B8AE67952FD /* Pods-PXCamera-resources.sh */,
-				9BB75EEE50D2966412E23B3DAA2F9D47 /* Pods-PXCamera.debug.xcconfig */,
-				5F313F3458A2A4BB0708D983AA28B4FB /* Pods-PXCamera.release.xcconfig */,
+				5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */,
+				785037556E0BE1163C512E8FA57DF6F4 /* PXPinnedRotation-dummy.m */,
+				904D597C086E0520ADFDE7BE4FFBD1C4 /* PXPinnedRotation-prefix.pch */,
+				80A5C2EE271197BB4B4511A740388C14 /* ResourceBundle-PXPinnedRotation-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXPinnedRotation";
+			sourceTree = "<group>";
+		};
+		9AA93AD52B136C7953534C57D296D180 /* Pods-PXCamera */ = {
+			isa = PBXGroup;
+			children = (
+				66B3F454BD328F981D88F9700F3346AF /* Pods-PXCamera-acknowledgements.markdown */,
+				D1AD97261E60F4523C7546BE67CBD29D /* Pods-PXCamera-acknowledgements.plist */,
+				97A56D1E1703650AE05980C530628AA6 /* Pods-PXCamera-dummy.m */,
+				3676F21A3288ACA9B5BEEF0942364F43 /* Pods-PXCamera-frameworks.sh */,
+				B9D18BBE07A15871E000E4E2554C0225 /* Pods-PXCamera-resources.sh */,
+				7153E5A9463F5E6B47B655141DD1686B /* Pods-PXCamera.debug.xcconfig */,
+				4D112B37E2FCEFFC9439046541838555 /* Pods-PXCamera.release.xcconfig */,
 			);
 			name = "Pods-PXCamera";
 			path = "Target Support Files/Pods-PXCamera";
@@ -391,51 +484,20 @@
 			isa = PBXGroup;
 			children = (
 				CE830D0982C3479C15C4E2DBE1C3C444 /* PXPinnedRotation */,
-				E78EAAA7A3083342E04C10E2FD63451E /* SVProgressHUD */,
+				11A9240C39B3F3F0F4C636F034AB51DA /* SVProgressHUD */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A5367DF6495E91A6C8C09260B5B6B5B2 /* Pod */ = {
+		A63FD7E9CC6ECFD11D73CFB0CAF2EF1C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D775E165FC88BB8EC4564572AE334DA4 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		A7A34B9490CA6F528C63DBC79D5F4FFE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE6CE13FF330E407B8B5A6B66993BDF8 /* PXCamera.xcconfig */,
-				1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */,
-				54DE37551FED1FE6B41DAFEC180BC9DE /* PXCamera-dummy.m */,
-				497F768C9763E18AFFCBF61D8C18C4B3 /* PXCamera-prefix.pch */,
+				5F4AA96BCCD8A5F328C58BE8C390D380 /* SVProgressHUD.xcconfig */,
+				081481C7E7F23B9D395C1CD06A24924C /* SVProgressHUD-dummy.m */,
+				9AE854EAB639C16887FC8CE453FFECD9 /* SVProgressHUD-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PXCamera";
-			sourceTree = "<group>";
-		};
-		A85291EC8FA7716F01806AFEDF7276D4 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ECEDF980C259247F44494D9C1EFD361B /* Pods-Tests-acknowledgements.markdown */,
-				D3411178FCAE03A5BE13D8008FD46C3E /* Pods-Tests-acknowledgements.plist */,
-				C6A4D5B21F9D8975C6C22A3864A0D300 /* Pods-Tests-dummy.m */,
-				8371E5DD6AB6337E2DFBD5DF78C0DFBA /* Pods-Tests-resources.sh */,
-				31B54EA0E38B58EB5F09F38C99CAC0A7 /* Pods-Tests.debug.xcconfig */,
-				3DC247BC11FFE42C5A6C73F55E006258 /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		AAAE534454871B97E685F7A4EEAFC740 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0471048EDDDF0A6FBAB4692FAF6DCE0C /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		C1232496181E973B63591AC2B55F0B91 /* Development Pods */ = {
@@ -449,37 +511,24 @@
 		C8D01019310985196CF5384F39CF7AA7 /* PXCamera */ = {
 			isa = PBXGroup;
 			children = (
-				A5367DF6495E91A6C8C09260B5B6B5B2 /* Pod */,
+				2C84AA7FC538EAB26F394D4F667308EE /* Pod */,
 				D874641DA33212ED6AFB6091D5FCA349 /* Resources */,
-				A7A34B9490CA6F528C63DBC79D5F4FFE /* Support Files */,
+				239D85F7181F839DDC456A428F603E05 /* Support Files */,
 			);
 			name = PXCamera;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ABC17266C9D13AB114B5499CCACF3036 /* PXCamera.bundle */,
-				4E7756103585D24C46F68E3EE54BF027 /* PXPinnedRotation.bundle */,
-				C1CAAE6911BF21D5747E783020CF871C /* libPXCamera.a */,
-				79A61AE07E25419B9C8019C22B571101 /* libPXPinnedRotation.a */,
-				4FD4E8DCE8E184E437D2C91C2FE41CF8 /* libPods-PXCamera.a */,
-				FDEF9E9E6130A5BD0D3AB9464D9BBF58 /* libPods-Tests.a */,
-				13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CE830D0982C3479C15C4E2DBE1C3C444 /* PXPinnedRotation */ = {
 			isa = PBXGroup;
 			children = (
-				8595369B6CEE31E356F13C5D26AC94A0 /* PXPinnedRotationView.h */,
-				A6DACF6F04C5EDC1CFE8B948E2EEA325 /* PXPinnedRotationView.m */,
-				116FF9D6955D487EDC3BB5CC2B7962DE /* PXPinnedRotationViewController.h */,
-				2E588C0A13CD35B8A8A344ED317A08DB /* PXPinnedRotationViewController.m */,
-				4B38EA84BE40BEF330D976E60BE279F9 /* Support Files */,
+				C8F3D864FBDD7CB759D081EB0877BEEA /* PXPinnedRotationView.h */,
+				58BA6AA1313CD890CABC5F99FA13FA5E /* PXPinnedRotationView.m */,
+				6652D25811E4BC9530F6A0452994D816 /* PXPinnedRotationViewController.h */,
+				027F23F100A39DE2C8FC3A9F1BE53E45 /* PXPinnedRotationViewController.m */,
+				8A9B8752C21E124B24EC835144B1E3DC /* Support Files */,
 			);
+			name = PXPinnedRotation;
 			path = PXPinnedRotation;
 			sourceTree = "<group>";
 		};
@@ -488,38 +537,8 @@
 			children = (
 				086B997CCF2FAAA4A3740C3CCB570BFE /* Assets */,
 			);
+			name = Pod;
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		D775E165FC88BB8EC4564572AE334DA4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8A06296F1CEB322F405B7AA159AC1814 /* PXCamera.h */,
-				ACA33DB8542FE0BE38C91019D1D929C0 /* PXCamera.m */,
-				15D436BA786841EB2763D136628F7126 /* PXCameraButton.h */,
-				A7FEC70B82729DC1087EC7850A7EAE16 /* PXCameraButton.m */,
-				31FA785099A6BA713FDC3016A8C6F8D2 /* PXCameraCaptureManager.h */,
-				CDC80690A483CFD1DD92A37EEAF3C60B /* PXCameraCaptureManager.m */,
-				652644981C2B656600FC6875 /* PXCameraPreviewView.h */,
-				652644991C2B656600FC6875 /* PXCameraPreviewView.m */,
-				FAAEE65EF224E23E3EB7AB644C821E74 /* PXCameraViewController.h */,
-				D3C0FB3625F6CBFD36C0265500E7AC61 /* PXCameraViewController.m */,
-				6CA027F5C04E91D2D2E429F5B04A8A3F /* PXCameraView.h */,
-				8248A19A53268CF399C5C7F695D4FA3E /* PXCameraView.m */,
-				A19603BF3C79B3B985A3BEE0D0540327 /* PXCameraDisplayView.h */,
-				CDA0CFB594C08B4317DF7DA7C724D59B /* PXCameraDisplayView.m */,
-				34F00E1CA1096671415638E423F7A617 /* PXCameraGridLayer.h */,
-				934775E609E1614D11B45A72AE25F580 /* PXCameraGridLayer.m */,
-				BEE06F6F27B66BC5C2D118CF5F5ABC31 /* PXFlashControl.h */,
-				BFC51DBFD3CB8B8A12FD8F32DDA5B10C /* PXFlashControl.m */,
-				942B0296C136E50E3C0D6C3128745C11 /* PXImagePickerHelper.h */,
-				AC10C5CFA2B7838866E824CD8E0E8915 /* PXImagePickerHelper.m */,
-				45092CAE5FFCDB5588F35D1BCE3ABE97 /* PXLibraryButton.h */,
-				FCEEC144A7B121D84598F4BDF7A72A63 /* PXLibraryButton.m */,
-				C960C447AC6C66189A285CF617EE0C8F /* PXSpanPicker.h */,
-				D086849219E412665D675E148C04E17D /* PXSpanPicker.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D874641DA33212ED6AFB6091D5FCA349 /* Resources */ = {
@@ -530,155 +549,70 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E78EAAA7A3083342E04C10E2FD63451E /* SVProgressHUD */ = {
+		DADF7342DC3C2F28FE064FDB196C25E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
-				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
-				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
-				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
-				AAAE534454871B97E685F7A4EEAFC740 /* Resources */,
-				07D11B0AAA594661F244764082549D72 /* Support Files */,
+				013D3556BE7BD642E18BE8338DE772C1 /* libPods-PXCamera.a */,
+				E516F01CEAE3ABB233F74914228DC610 /* libPods-Tests.a */,
+				DBEACA7460E20BD64639EBEE54CB5366 /* libPXCamera.a */,
+				A70BF87F81B7D7A84EC06BDDE98DFD7C /* libPXPinnedRotation.a */,
+				DE9BBD4F31F8B3FF969EEEDF6619C191 /* libSVProgressHUD.a */,
+				0AC9478C2146A6AD731BD70C71694DC3 /* PXCamera.bundle */,
+				1535D4C728AA3450E37A5E98A5B996E0 /* PXPinnedRotation.bundle */,
 			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		FDF37E2984E4C208FF097C8B0B4D64D9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E3F50FB956FA60C0E74ABEF782DCD7C /* AVFoundation.framework */,
-				A2C9F1B63C9B5959B10AA7A223CBB9ED /* AssetsLibrary.framework */,
-				421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */,
-				248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */,
-				BB932F5547B9D036899B79F8BBFF91B4 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05028385704066B0B11A7E45C89971A8 /* Headers */ = {
+		251A901318D92A5C1C0EB931E4E57779 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F615C314E0D35CBECF9F9266DF331E90 /* PXPinnedRotationView.h in Headers */,
-				5151C3AAC749B4877C57C9F3379DC7AD /* PXPinnedRotationViewController.h in Headers */,
+				5DA1FA615B9FFAC8AE9BAB6F4F308F6B /* PXCamera.h in Headers */,
+				4948C9FB4411C28931B4F9F9FAD43BAD /* PXCameraButton.h in Headers */,
+				FE8F65631D568A00261834A49F0590C9 /* PXCameraCaptureManager.h in Headers */,
+				04DE739BCAE011297EA9908E5A2306F2 /* PXCameraDisplayView.h in Headers */,
+				3391AE317C0C9992AF821D9627CD9047 /* PXCameraGridLayer.h in Headers */,
+				5FB61DD1CF6A56597880B8B851192696 /* PXCameraPreviewView.h in Headers */,
+				2021E6924B3EEB55C98C6CBA373ECDCF /* PXCameraView.h in Headers */,
+				218D7726E2FDFE6F0B0D0601E7B8F436 /* PXCameraViewController.h in Headers */,
+				7E549D2CC7E0F6B4DB37D6B2F85DBD07 /* PXFlashControl.h in Headers */,
+				0F58FA85CD0224C8104C2CF0DC92F9E9 /* PXImagePickerHelper.h in Headers */,
+				83A1CBAC7BF112BEC90DCF22CBA23072 /* PXLibraryButton.h in Headers */,
+				382A93E599D32ED2D53A3A8496BC8E80 /* PXSpanPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65448309DAC6C094DA7040A341F67413 /* Headers */ = {
+		2881CD91470D1402BE2D9232B469707E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E5BE93758009035C26B3BE1C58F8AF /* PXCamera.h in Headers */,
-				6526449A1C2B656600FC6875 /* PXCameraPreviewView.h in Headers */,
-				5D5012B571F5CE2CEB3759F65588AA81 /* PXCameraButton.h in Headers */,
-				ECBFD8169DEA76164EA0B753363DE171 /* PXCameraCaptureManager.h in Headers */,
-				C86D519AFC84A6C42F0CCF7A6A1A8272 /* PXCameraDisplayView.h in Headers */,
-				06F738D4E22960689C2D2DA0D9D54185 /* PXCameraGridLayer.h in Headers */,
-				967BD92E0248ADB9B894BD3287CC76D3 /* PXCameraView.h in Headers */,
-				247A8713391FD2D55DAE8766338D7272 /* PXCameraViewController.h in Headers */,
-				EF10F5773B2C6710F4A5A0C0CCE640E9 /* PXFlashControl.h in Headers */,
-				D9F408BFEB94182F8A612E888E6B2462 /* PXImagePickerHelper.h in Headers */,
-				0B4F0B5E0EC79CCFDF97ED820DEACCD3 /* PXLibraryButton.h in Headers */,
-				40C00F7467F5D5154AE0547D251C213E /* PXSpanPicker.h in Headers */,
+				8B6108CE6803E9391A60625EA380A6EA /* PXPinnedRotationView.h in Headers */,
+				CB74CDA584C87071621A1B5B542DC6AA /* PXPinnedRotationViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E03BC82D209DE558C3932FF43FC1F2 /* Headers */ = {
+		67ABCA89C53352FEBBA1A6B16D62811B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */,
-				B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */,
+				A157EC2D59CE59EB5F792D9FB2803CD8 /* SVIndefiniteAnimatedView.h in Headers */,
+				F9FAB8FF02B1AF3ACC7176D7BD67C001 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23C2B540EB3105C069C75BC4808C1EE6 /* PXCamera */ = {
+		1F32985CDCF588CB4E1D62568E47CF88 /* PXCamera-PXCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 832611DA9944F2617FD82FBC9DF56589 /* Build configuration list for PBXNativeTarget "PXCamera" */;
+			buildConfigurationList = 391809A60B33CF37A195E54FD04BE56F /* Build configuration list for PBXNativeTarget "PXCamera-PXCamera" */;
 			buildPhases = (
-				B6EF7E4222957B3320DEC80F292019D9 /* Sources */,
-				A4122B7359FBBE8B818E23B0A549087D /* Frameworks */,
-				65448309DAC6C094DA7040A341F67413 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02551B58414604C7379ECF74468AF2CB /* PBXTargetDependency */,
-				02500D530CE1FD9CB034F9B6AB5D3E26 /* PBXTargetDependency */,
-				C127C3F6F5189A0F94F3BBE4C12DEB51 /* PBXTargetDependency */,
-			);
-			name = PXCamera;
-			productName = PXCamera;
-			productReference = C1CAAE6911BF21D5747E783020CF871C /* libPXCamera.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3BE85D741E718414462FA91996857A55 /* PXPinnedRotation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43F83C6912BD4AA4F2D679FB49E7A662 /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */;
-			buildPhases = (
-				144BBD20E19338CF9FAF107EE1D9D7BD /* Sources */,
-				04D847CCF07A4DA71699A2FB98594CBB /* Frameworks */,
-				05028385704066B0B11A7E45C89971A8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1D9121273E590028B280FF644D3674F /* PBXTargetDependency */,
-			);
-			name = PXPinnedRotation;
-			productName = PXPinnedRotation;
-			productReference = 79A61AE07E25419B9C8019C22B571101 /* libPXPinnedRotation.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9FB6D958A49ADEA05ECFCD671BF62E8D /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57A6E389E5D0453A1A47C757916DBB5D /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				C3ED3B3B2AE620F9614152269C6DBFB0 /* Sources */,
-				BA869F3DD7EF6F03D1DA7560EE02CC7B /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0478A9370716D790FBD7FD9BF7C9465D /* PBXTargetDependency */,
-				27F6DA1A50C5BB899F9751164EFF64B0 /* PBXTargetDependency */,
-				07E6F81F79A90CBB5F4BE72F771BC28A /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = FDEF9E9E6130A5BD0D3AB9464D9BBF58 /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B10C8D8BC6346D953E0D2DDABC63F3E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				3D0E2D1B45261FB1DAC837B020C4EC01 /* Sources */,
-				383B4BF839254A82265A1E6D540C9F3F /* Frameworks */,
-				A6E03BC82D209DE558C3932FF43FC1F2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C57E2C53AED20921E3D980119DB2E53B /* PXCamera-PXCamera */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E7E4D62B09A855583B44D168C080DA8 /* Build configuration list for PBXNativeTarget "PXCamera-PXCamera" */;
-			buildPhases = (
-				08E060D7B469C994F66242D0833DCE40 /* Sources */,
-				977900C2800F42DBDE74BD7D180CC881 /* Frameworks */,
-				B98B3A4432BFB103C1D31220B8CFBBA9 /* Resources */,
+				982FF5265FBC431020654F594DAD59A3 /* Sources */,
+				E6893B2DF47B03580BBF98D7B4EFD0B6 /* Frameworks */,
+				DC39AEF0DC1F301BA6AD85C81673973E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -686,16 +620,92 @@
 			);
 			name = "PXCamera-PXCamera";
 			productName = "PXCamera-PXCamera";
-			productReference = ABC17266C9D13AB114B5499CCACF3036 /* PXCamera.bundle */;
+			productReference = 0AC9478C2146A6AD731BD70C71694DC3 /* PXCamera.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DD44B55F306FF19DE3715FFC6FD9A7B4 /* PXPinnedRotation-PXPinnedRotation */ = {
+		260084451C6285AECD1F5B9449A8F87D /* Pods-PXCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBA02631A09DFEF6651EDB27CB6BB4BA /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */;
+			buildConfigurationList = FF06050B801D32B81A72CD9801FCCA1D /* Build configuration list for PBXNativeTarget "Pods-PXCamera" */;
 			buildPhases = (
-				757FB0195D709703319802C888C58085 /* Sources */,
-				01F4ED3D8F4FCFE8B315A474CFB9A08F /* Frameworks */,
-				E91020EC5842F71230ABA2F0462BD533 /* Resources */,
+				123FF0AAE68379DA83DC1C31F1CBF030 /* Sources */,
+				ED4B1778A539EE7842465B9D59739E35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501CC67E693E6E59F85BFCB0DCBCFE9E /* PBXTargetDependency */,
+				F9FF89129B46E71C1C00872C714DE484 /* PBXTargetDependency */,
+				3C6DBFEA177F3190C238A951E3D86FAD /* PBXTargetDependency */,
+			);
+			name = "Pods-PXCamera";
+			productName = "Pods-PXCamera";
+			productReference = 013D3556BE7BD642E18BE8338DE772C1 /* libPods-PXCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27DA185F67E2C8AF6540C18420E37FF6 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8788856157FEF0C201B30BFDE63B1F23 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				12181B01CE27AE3F28B35644ED931CD1 /* Sources */,
+				C5DF7E9EE7F7B17F41CF87680DAFFAB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7348BAC8FA8A260196BA8C4A98B2A934 /* PBXTargetDependency */,
+				B81098C8ABC0F94FCBAA3D398C17AF41 /* PBXTargetDependency */,
+				3473E38E1F30EEB93FA4E5D9703D190E /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = E516F01CEAE3ABB233F74914228DC610 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3B4A9B824C54E09F8E3D3065B9FB5127 /* PXCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95E2470B6C186BB553EFED4A4246C10 /* Build configuration list for PBXNativeTarget "PXCamera" */;
+			buildPhases = (
+				D08258B37B860E66AF8DC5AA21CE6C50 /* Sources */,
+				A31B4B6D2A279A976CAAAE9625493E7C /* Frameworks */,
+				251A901318D92A5C1C0EB931E4E57779 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF4C4D92A525E40B3A92F5B66BBDA43 /* PBXTargetDependency */,
+				4599F5D4A669BD107EF17CC030E2B465 /* PBXTargetDependency */,
+				A13FB03245C9114AF0BECCC901040D50 /* PBXTargetDependency */,
+			);
+			name = PXCamera;
+			productName = PXCamera;
+			productReference = DBEACA7460E20BD64639EBEE54CB5366 /* libPXCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5A2424F3536B838F20E572A6650B62CF /* PXPinnedRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2E102AEAF67507EAB684CD7FAED6E /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */;
+			buildPhases = (
+				9BF1475B3D43BEC23A6FDF4DF0C52EF8 /* Sources */,
+				C45A501EF4B125C62979C939C418EFDF /* Frameworks */,
+				2881CD91470D1402BE2D9232B469707E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D83591222AE3F49889A8B4DF6122A43 /* PBXTargetDependency */,
+			);
+			name = PXPinnedRotation;
+			productName = PXPinnedRotation;
+			productReference = A70BF87F81B7D7A84EC06BDDE98DFD7C /* libPXPinnedRotation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A35516DC4EB75862CAC337687A9F02FA /* PXPinnedRotation-PXPinnedRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6B8DAC600A38E0CD362E90D2367D4E /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */;
+			buildPhases = (
+				3B5279299958419001092D46619555AD /* Sources */,
+				A8C21F585F67F0E83AEF219BCB249ACA /* Frameworks */,
+				AB15A3A69561ECC004910BABFD2C2D83 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -703,26 +713,24 @@
 			);
 			name = "PXPinnedRotation-PXPinnedRotation";
 			productName = "PXPinnedRotation-PXPinnedRotation";
-			productReference = 4E7756103585D24C46F68E3EE54BF027 /* PXPinnedRotation.bundle */;
+			productReference = 1535D4C728AA3450E37A5E98A5B996E0 /* PXPinnedRotation.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		FD847CC82D7102F41B329F18809374B3 /* Pods-PXCamera */ = {
+		AF998661254A44F6E066A41D67746637 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31318A60DFEC80E2DC3120838825E034 /* Build configuration list for PBXNativeTarget "Pods-PXCamera" */;
+			buildConfigurationList = 1D5C7F7A776C9C39F52316C813970023 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				DD254E7698618A51CD1CCBA13C8C8BF3 /* Sources */,
-				556F106A3BD31E917A2781A0A637E57B /* Frameworks */,
+				7B820B792DDEE3A6438DC1D67D6467BE /* Sources */,
+				61FDA2D52690F0626CEAF88265499B26 /* Frameworks */,
+				67ABCA89C53352FEBBA1A6B16D62811B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30CBBE94C7139D4D6978EB5A018CA571 /* PBXTargetDependency */,
-				A68885A66011094693EFD8D64A24FF66 /* PBXTargetDependency */,
-				CE6E3952CACCDA471353C6B777DE9B47 /* PBXTargetDependency */,
 			);
-			name = "Pods-PXCamera";
-			productName = "Pods-PXCamera";
-			productReference = 4FD4E8DCE8E184E437D2C91C2FE41CF8 /* libPods-PXCamera.a */;
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = DE9BBD4F31F8B3FF969EEEDF6619C191 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -731,7 +739,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -742,229 +750,494 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = DADF7342DC3C2F28FE064FDB196C25E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23C2B540EB3105C069C75BC4808C1EE6 /* PXCamera */,
-				C57E2C53AED20921E3D980119DB2E53B /* PXCamera-PXCamera */,
-				3BE85D741E718414462FA91996857A55 /* PXPinnedRotation */,
-				DD44B55F306FF19DE3715FFC6FD9A7B4 /* PXPinnedRotation-PXPinnedRotation */,
-				FD847CC82D7102F41B329F18809374B3 /* Pods-PXCamera */,
-				9FB6D958A49ADEA05ECFCD671BF62E8D /* Pods-Tests */,
-				B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */,
+				260084451C6285AECD1F5B9449A8F87D /* Pods-PXCamera */,
+				27DA185F67E2C8AF6540C18420E37FF6 /* Pods-Tests */,
+				3B4A9B824C54E09F8E3D3065B9FB5127 /* PXCamera */,
+				1F32985CDCF588CB4E1D62568E47CF88 /* PXCamera-PXCamera */,
+				5A2424F3536B838F20E572A6650B62CF /* PXPinnedRotation */,
+				A35516DC4EB75862CAC337687A9F02FA /* PXPinnedRotation-PXPinnedRotation */,
+				AF998661254A44F6E066A41D67746637 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B98B3A4432BFB103C1D31220B8CFBBA9 /* Resources */ = {
+		AB15A3A69561ECC004910BABFD2C2D83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDA6CBCB2743FE1102C01A315B3F6A1 /* close.png in Resources */,
-				7C76A679663FB35E246826C5B19074FD /* close@2x.png in Resources */,
-				4A610DEF537D4B6D9612439B81EF5929 /* close@3x.png in Resources */,
-				FB461611E271768A1B1AFDCDC8F9D607 /* flash-auto.png in Resources */,
-				E4316D61A36C5378CFE14D1BFD76C8D1 /* flash-auto@2x.png in Resources */,
-				09ADC323FD5AF615DAA3927C778909BF /* flash-off.png in Resources */,
-				A4366F7D1C1974D8EEEF89C323442A8F /* flash-off@2x.png in Resources */,
-				36C01B199F81EE16B0D1C9E5B84D4823 /* flash-on.png in Resources */,
-				1673AFDE883333CAA44E9B50630DE4B8 /* flash-on@2x.png in Resources */,
-				FAA71BB4CE162D70BB51D83270E54527 /* flash-unavailable.png in Resources */,
-				1CE96AD72148329FD90A61BF81542190 /* flash-unavailable@2x.png in Resources */,
-				AC417CD35D716FAD09002D8C90D54753 /* grid.png in Resources */,
-				86727AFAAA63660A1CE0EAC3C0CC7060 /* grid@2x.png in Resources */,
-				C95D125D482621FB9339E3D69C305458 /* grid@3x.png in Resources */,
-				5640C83AD3EA536E881ECA7FD2C03AA7 /* switch-camera.png in Resources */,
-				04A5FC5F3ACD9646B71EF51025D62B5F /* switch-camera@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E91020EC5842F71230ABA2F0462BD533 /* Resources */ = {
+		DC39AEF0DC1F301BA6AD85C81673973E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2D3759B62E76D0E51CF47D64C65C08 /* close.png in Resources */,
+				AAE6EE5EBC11CB0DED6F2A4E0991B4C8 /* close@2x.png in Resources */,
+				4CF3B1C237AA26EB9861A4AD6F218575 /* close@3x.png in Resources */,
+				138569BCCC2EE0D01B9714477F6F8C06 /* flash-auto.png in Resources */,
+				13985906D8D3C6B477049675FDB8199B /* flash-auto@2x.png in Resources */,
+				5BEA50B55C8C1379C7C6368918F74ADD /* flash-off.png in Resources */,
+				AF822F3B35041FAF96CA02A20DC122AC /* flash-off@2x.png in Resources */,
+				E34C97F99AE5A8013D0CD622FCBA11C5 /* flash-on.png in Resources */,
+				7B1F230F5181268039AD85A0A60B0F48 /* flash-on@2x.png in Resources */,
+				1DBB2D32B0CE98B23EBC7B8492BEC1FD /* flash-unavailable.png in Resources */,
+				12A0DB7CEDD6819F4B0EF5B18891492A /* flash-unavailable@2x.png in Resources */,
+				7ADFE8ED2C0A3E9DE4ADFBC49ED58A8B /* grid.png in Resources */,
+				24A2018DDB0C9F576EEB0DDE2AAA675B /* grid@2x.png in Resources */,
+				9D7B4929BE436E848B504FBEFA622F08 /* grid@3x.png in Resources */,
+				1F8CD529F4CCF8055ACC360E3E18D762 /* switch-camera.png in Resources */,
+				A045494B0080FB285BA9F165C9AD9EC3 /* switch-camera@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08E060D7B469C994F66242D0833DCE40 /* Sources */ = {
+		12181B01CE27AE3F28B35644ED931CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D19AC1B14A987D88463BD85AF76F8EC /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123FF0AAE68379DA83DC1C31F1CBF030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8782E92920C45377AC6B68537FDE371 /* Pods-PXCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5279299958419001092D46619555AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		144BBD20E19338CF9FAF107EE1D9D7BD /* Sources */ = {
+		7B820B792DDEE3A6438DC1D67D6467BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F90CF91E0DE383B32954243BA88FAC /* PXPinnedRotation-dummy.m in Sources */,
-				9865508D2937FE2DFE6B0FE028DD6CE9 /* PXPinnedRotationView.m in Sources */,
-				4D5CA6F83278A26EAF07A3067F543CEA /* PXPinnedRotationViewController.m in Sources */,
+				FE22C0C2204568EE3C1004D1CCC57909 /* SVIndefiniteAnimatedView.m in Sources */,
+				9C76202190F1AE1C6899D4AD83E1A67C /* SVProgressHUD-dummy.m in Sources */,
+				337A05D9AEF3FA23C2724E550FC074FA /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D0E2D1B45261FB1DAC837B020C4EC01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */,
-				F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */,
-				27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		757FB0195D709703319802C888C58085 /* Sources */ = {
+		982FF5265FBC431020654F594DAD59A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6EF7E4222957B3320DEC80F292019D9 /* Sources */ = {
+		9BF1475B3D43BEC23A6FDF4DF0C52EF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D20B31A6F28B554C160BFFCDCEEE2C0 /* PXCamera-dummy.m in Sources */,
-				C79659A57E9E00FDE8A11E9216532678 /* PXCamera.m in Sources */,
-				F01BD3B3D7E4149EDB6BC6E8750B3EA0 /* PXCameraButton.m in Sources */,
-				30DC59A6931772C2632634E2DEB7B034 /* PXCameraCaptureManager.m in Sources */,
-				71DA1F6E77F0B75589FC5C330CC6D402 /* PXCameraDisplayView.m in Sources */,
-				3B6B70DACB813C1C47684A82319BF49B /* PXCameraGridLayer.m in Sources */,
-				9718821AACA60A178D589744CC6AD802 /* PXCameraView.m in Sources */,
-				734E5651962F17C1AD8B3A4D8FFEFCED /* PXCameraViewController.m in Sources */,
-				6526449B1C2B656600FC6875 /* PXCameraPreviewView.m in Sources */,
-				5DF15C5ED28BC93AF657323DAF9122E3 /* PXFlashControl.m in Sources */,
-				95E12D1505C5FAAA77A6589D62A39F1C /* PXImagePickerHelper.m in Sources */,
-				F79B27CF5B0DB7DEB6A90A347D49D537 /* PXLibraryButton.m in Sources */,
-				5098C1782855CAC04350723FB7F56BC4 /* PXSpanPicker.m in Sources */,
+				DEEE7D62154927CB366BB4CF2D643302 /* PXPinnedRotation-dummy.m in Sources */,
+				9BF43C95AD4C2B6F586A25E41BB5CE86 /* PXPinnedRotationView.m in Sources */,
+				E03AC53D448DA945FD2E82EED3800CFA /* PXPinnedRotationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3ED3B3B2AE620F9614152269C6DBFB0 /* Sources */ = {
+		D08258B37B860E66AF8DC5AA21CE6C50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59952CCAE765894978E3A27438F53CBB /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD254E7698618A51CD1CCBA13C8C8BF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17859B9F39BBA73B83CA86B71D97C66D /* Pods-PXCamera-dummy.m in Sources */,
+				DF8507E94747D2DA530CC6CDF98417F3 /* PXCamera-dummy.m in Sources */,
+				72D6B49EBBFB38A5252D8D4C2323DFFD /* PXCamera.m in Sources */,
+				A8D59FADB67099193F6C102E1C7F6C20 /* PXCameraButton.m in Sources */,
+				CD188A4BB08B8CDD534CB3F071A1A925 /* PXCameraCaptureManager.m in Sources */,
+				9DD68BE1093A8C2750B262A520800014 /* PXCameraDisplayView.m in Sources */,
+				D9F76428E001E0BA7C303FAB03E7DD4C /* PXCameraGridLayer.m in Sources */,
+				28A75F3F2056A883698E09A3D303B7F4 /* PXCameraPreviewView.m in Sources */,
+				42FA1E714FAA4DFBEAEEF85F014BFAFA /* PXCameraView.m in Sources */,
+				070EEC19ABA1ECC436C7226BC66E97B7 /* PXCameraViewController.m in Sources */,
+				6F7DEC318AA6FE0ACEA1D0C67A3044DE /* PXFlashControl.m in Sources */,
+				5B9F34BD85CCBFD50B81D9C36A4CAF06 /* PXImagePickerHelper.m in Sources */,
+				3780C407FC71A8D970F3BBE867092C89 /* PXLibraryButton.m in Sources */,
+				550B8314E25480998F0172BC83B4CDBB /* PXSpanPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02500D530CE1FD9CB034F9B6AB5D3E26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXPinnedRotation;
-			target = 3BE85D741E718414462FA91996857A55 /* PXPinnedRotation */;
-			targetProxy = 59464FE6E9BAFD2552BC132F919C36F5 /* PBXContainerItemProxy */;
-		};
-		02551B58414604C7379ECF74468AF2CB /* PBXTargetDependency */ = {
+		0FF4C4D92A525E40B3A92F5B66BBDA43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PXCamera-PXCamera";
-			target = C57E2C53AED20921E3D980119DB2E53B /* PXCamera-PXCamera */;
-			targetProxy = 50E8CEFC3AF5B144A9BB7B42739043A1 /* PBXContainerItemProxy */;
+			target = 1F32985CDCF588CB4E1D62568E47CF88 /* PXCamera-PXCamera */;
+			targetProxy = 2985BDD722C7E9A4313243F39DEB1D61 /* PBXContainerItemProxy */;
 		};
-		0478A9370716D790FBD7FD9BF7C9465D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PXCamera;
-			target = 23C2B540EB3105C069C75BC4808C1EE6 /* PXCamera */;
-			targetProxy = E1B7E1A2E1FDAEC808D625CE1EC04A7A /* PBXContainerItemProxy */;
-		};
-		07E6F81F79A90CBB5F4BE72F771BC28A /* PBXTargetDependency */ = {
+		3473E38E1F30EEB93FA4E5D9703D190E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
-			targetProxy = 02AEE1A0CE33771880B5F259457ACADB /* PBXContainerItemProxy */;
+			target = AF998661254A44F6E066A41D67746637 /* SVProgressHUD */;
+			targetProxy = E0D462711EDAA0C9C8949637E42AA802 /* PBXContainerItemProxy */;
 		};
-		27F6DA1A50C5BB899F9751164EFF64B0 /* PBXTargetDependency */ = {
+		3C6DBFEA177F3190C238A951E3D86FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = AF998661254A44F6E066A41D67746637 /* SVProgressHUD */;
+			targetProxy = CEADFDCE03917C50E8D25467E9B5FE8C /* PBXContainerItemProxy */;
+		};
+		4599F5D4A669BD107EF17CC030E2B465 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXPinnedRotation;
-			target = 3BE85D741E718414462FA91996857A55 /* PXPinnedRotation */;
-			targetProxy = 9A362CF55EE24530780004E7B509EAE4 /* PBXContainerItemProxy */;
+			target = 5A2424F3536B838F20E572A6650B62CF /* PXPinnedRotation */;
+			targetProxy = 0F69376DD63E2474C90E7A1B192D2C93 /* PBXContainerItemProxy */;
 		};
-		30CBBE94C7139D4D6978EB5A018CA571 /* PBXTargetDependency */ = {
+		501CC67E693E6E59F85BFCB0DCBCFE9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXCamera;
-			target = 23C2B540EB3105C069C75BC4808C1EE6 /* PXCamera */;
-			targetProxy = 1C43BDB13252CC13E2641A11FE8582F7 /* PBXContainerItemProxy */;
+			target = 3B4A9B824C54E09F8E3D3065B9FB5127 /* PXCamera */;
+			targetProxy = EB3D5EBFDEEB6D1FE5CBC61C4F26BFA3 /* PBXContainerItemProxy */;
 		};
-		A1D9121273E590028B280FF644D3674F /* PBXTargetDependency */ = {
+		6D83591222AE3F49889A8B4DF6122A43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PXPinnedRotation-PXPinnedRotation";
-			target = DD44B55F306FF19DE3715FFC6FD9A7B4 /* PXPinnedRotation-PXPinnedRotation */;
-			targetProxy = 1B31ECECC31BB055C0896B3B2C0DCA36 /* PBXContainerItemProxy */;
+			target = A35516DC4EB75862CAC337687A9F02FA /* PXPinnedRotation-PXPinnedRotation */;
+			targetProxy = 6EA10745D057E1E3630F892F02EFA99B /* PBXContainerItemProxy */;
 		};
-		A68885A66011094693EFD8D64A24FF66 /* PBXTargetDependency */ = {
+		7348BAC8FA8A260196BA8C4A98B2A934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXCamera;
+			target = 3B4A9B824C54E09F8E3D3065B9FB5127 /* PXCamera */;
+			targetProxy = 54E33F462C243F032BAB0E8C170F6CB3 /* PBXContainerItemProxy */;
+		};
+		A13FB03245C9114AF0BECCC901040D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = AF998661254A44F6E066A41D67746637 /* SVProgressHUD */;
+			targetProxy = 6FC4AF99483B829A5FC7C93A4C98CE5C /* PBXContainerItemProxy */;
+		};
+		B81098C8ABC0F94FCBAA3D398C17AF41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PXPinnedRotation;
-			target = 3BE85D741E718414462FA91996857A55 /* PXPinnedRotation */;
-			targetProxy = 1732C5650D6D6CCB14311D03B681DA89 /* PBXContainerItemProxy */;
+			target = 5A2424F3536B838F20E572A6650B62CF /* PXPinnedRotation */;
+			targetProxy = 9E55AD8A4491F2A1D587668F7EEAD0C6 /* PBXContainerItemProxy */;
 		};
-		C127C3F6F5189A0F94F3BBE4C12DEB51 /* PBXTargetDependency */ = {
+		F9FF89129B46E71C1C00872C714DE484 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
-			targetProxy = A49E1E671FA40C9090DA2ED6359D89BC /* PBXContainerItemProxy */;
-		};
-		CE6E3952CACCDA471353C6B777DE9B47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
-			targetProxy = 1F12154818E66A1084D40061784CD2C5 /* PBXContainerItemProxy */;
+			name = PXPinnedRotation;
+			target = 5A2424F3536B838F20E572A6650B62CF /* PXPinnedRotation */;
+			targetProxy = C270858201ADA9BF0C93576D8439A548 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		01E99847074C4BFCAEF1B426E9BF5899 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D112B37E2FCEFFC9439046541838555 /* Pods-PXCamera.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		08E8ACEB9FA18E13D96942DAC1F61107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPinnedRotation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXPinnedRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0AB255A3A541DF374D980F823B84176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55B24497AD786556565EFC9E500A0AA /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		31C1B966C0B117F2391CC81ABD36E017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7153E5A9463F5E6B47B655141DD1686B /* Pods-PXCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51468057D68E02582A6A160333552E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C648F6D33FC4B7C1F9D10593E0FA2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXCamera";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXCamera/ResourceBundle-PXCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5D585A00EC17074ED7C30190E838C5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4AA96BCCD8A5F328C58BE8C390D380 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6DFD98A93EE2C44D72F21CC89A1C2D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		732E89E2D842CAE27AD6E0E4023CE2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4AA96BCCD8A5F328C58BE8C390D380 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		861BF2D168EB0A5F93C59E7C9F4DE8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE5EEF273212FADEB874B393FEB83A6 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB3D81B38AF664521C2CC329ACA07866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C047372D03080541555DDD4940F946B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXCamera";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXCamera/ResourceBundle-PXCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CACD4722E5BB7425608D1FBB04ECAC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDBFD333AE65B78B9EEA57341BB3A37 /* PXCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC78ACFBFA12D8383E95C6C04A23BC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0D84C2F630E07C8E2C26D35D70F2FF /* PXPinnedRotation.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPinnedRotation";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXPinnedRotation/ResourceBundle-PXPinnedRotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXPinnedRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -978,11 +1251,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -995,290 +1271,123 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2CB1B363422A839D5E5DCED13CA9293C /* Debug */ = {
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31B54EA0E38B58EB5F09F38C99CAC0A7 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3221A8C6F05B1DEE4D64B589E22EC185 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		35DA136089FD5694FC3685303254CF41 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3C96690350A737595E832E218AF02ADD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXPinnedRotation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		49DCF1B198F22EE7536E32EA43E4366C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXPinnedRotation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		599EF0CD4C47D33E47464BFC0646C1B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6588A440C53EE9B50A05CD63D5E3996A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6A9FBE26FDC74AC235B4C40AE705F5B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F313F3458A2A4BB0708D983AA28B4FB /* Pods-PXCamera.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7CE4C3B0DEDF874B7C20980006FADFB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		83C689656CE7F81902244C28F290AE61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4319A16A92356A2CDE665F5CDF8309 /* PXPinnedRotation-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXPinnedRotation/PXPinnedRotation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		ACC8346EF83871DC871B98C765B6D36B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC247BC11FFE42C5A6C73F55E006258 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BD649DE50F4794B3BA59DE2FB18F532C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FDAD732568F4D7DA8D45ACDD105E32A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EEB42978E72232E85CAB2EEC2490C99 /* PXCamera-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXCamera/PXCamera-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FE60780DB3D2E52EFBFE9FB4D9C63B4F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BB75EEE50D2966412E23B3DAA2F9D47 /* Pods-PXCamera.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D5C7F7A776C9C39F52316C813970023 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D585A00EC17074ED7C30190E838C5E1 /* Debug */,
+				732E89E2D842CAE27AD6E0E4023CE2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31318A60DFEC80E2DC3120838825E034 /* Build configuration list for PBXNativeTarget "Pods-PXCamera" */ = {
+		391809A60B33CF37A195E54FD04BE56F /* Build configuration list for PBXNativeTarget "PXCamera-PXCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE60780DB3D2E52EFBFE9FB4D9C63B4F /* Debug */,
-				6A9FBE26FDC74AC235B4C40AE705F5B8 /* Release */,
+				C047372D03080541555DDD4940F946B7 /* Debug */,
+				5C648F6D33FC4B7C1F9D10593E0FA2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43F83C6912BD4AA4F2D679FB49E7A662 /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */ = {
+		4F6B8DAC600A38E0CD362E90D2367D4E /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35DA136089FD5694FC3685303254CF41 /* Debug */,
-				83C689656CE7F81902244C28F290AE61 /* Release */,
+				CC78ACFBFA12D8383E95C6C04A23BC4D /* Debug */,
+				08E8ACEB9FA18E13D96942DAC1F61107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57A6E389E5D0453A1A47C757916DBB5D /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		8788856157FEF0C201B30BFDE63B1F23 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CB1B363422A839D5E5DCED13CA9293C /* Debug */,
-				ACC8346EF83871DC871B98C765B6D36B /* Release */,
+				861BF2D168EB0A5F93C59E7C9F4DE8F0 /* Debug */,
+				0AB255A3A541DF374D980F823B84176E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E7E4D62B09A855583B44D168C080DA8 /* Build configuration list for PBXNativeTarget "PXCamera-PXCamera" */ = {
+		D95E2470B6C186BB553EFED4A4246C10 /* Build configuration list for PBXNativeTarget "PXCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3221A8C6F05B1DEE4D64B589E22EC185 /* Debug */,
-				BD649DE50F4794B3BA59DE2FB18F532C /* Release */,
+				CACD4722E5BB7425608D1FBB04ECAC08 /* Debug */,
+				51468057D68E02582A6A160333552E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B10C8D8BC6346D953E0D2DDABC63F3E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		FDB2E102AEAF67507EAB684CD7FAED6E /* Build configuration list for PBXNativeTarget "PXPinnedRotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE4C3B0DEDF874B7C20980006FADFB4 /* Debug */,
-				599EF0CD4C47D33E47464BFC0646C1B3 /* Release */,
+				BB3D81B38AF664521C2CC329ACA07866 /* Debug */,
+				6DFD98A93EE2C44D72F21CC89A1C2D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		832611DA9944F2617FD82FBC9DF56589 /* Build configuration list for PBXNativeTarget "PXCamera" */ = {
+		FF06050B801D32B81A72CD9801FCCA1D /* Build configuration list for PBXNativeTarget "Pods-PXCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6588A440C53EE9B50A05CD63D5E3996A /* Debug */,
-				FDAD732568F4D7DA8D45ACDD105E32A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BBA02631A09DFEF6651EDB27CB6BB4BA /* Build configuration list for PBXNativeTarget "PXPinnedRotation-PXPinnedRotation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49DCF1B198F22EE7536E32EA43E4366C /* Debug */,
-				3C96690350A737595E832E218AF02ADD /* Release */,
+				31C1B966C0B117F2391CC81ABD36E017 /* Debug */,
+				01E99847074C4BFCAEF1B426E9BF5899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

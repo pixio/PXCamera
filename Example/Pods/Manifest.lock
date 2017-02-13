@@ -1,7 +1,7 @@
 PODS:
-  - PXCamera (0.1.3):
+  - PXCamera (0.2.8):
     - PXPinnedRotation
-    - SVProgressHUD (~> 1.0)
+    - SVProgressHUD
   - PXPinnedRotation (0.1.3)
   - SVProgressHUD (1.1.3)
 
@@ -13,8 +13,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXCamera: 0d2d77cff1f8eb6b882bdca36b5863d6270384f0
+  PXCamera: f45a8a87c1882269023157432cbda3660487f985
   PXPinnedRotation: 44d23d18c495b91a35ef69dacae9c566afe01bb9
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: a197e66bc50943de29d7ce4414e432c7c5c20386
+
+COCOAPODS: 1.2.0

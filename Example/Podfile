@@ -1,11 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'PXCamera', :exclusive => true do
+target 'PXCamera' do
   pod "PXCamera", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "PXCamera", :path => "../"
-
-
 end
