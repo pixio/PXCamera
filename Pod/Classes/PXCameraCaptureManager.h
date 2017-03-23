@@ -104,7 +104,7 @@ typedef NS_ENUM(NSInteger, PXFlashType) {
  */ 
 @protocol PXCameraCaptureManagerDelegate <NSObject>
 @optional
-- (void) captureManager:(nullable PXCameraCaptureManager *)captureManager didFailWithError:(nullable NSError *)error;
-- (void) captureManagerStillImageCaptured:(nullable PXCameraCaptureManager *)captureManager;
-- (void) captureManagerDeviceConfigurationChanged:(nullable PXCameraCaptureManager *)captureManager;
+- (void) captureManager:(nonnull PXCameraCaptureManager *)captureManager didFailWithError:(nullable NSError *)error;
+- (void) captureManagerStillImageCaptured:(nonnull PXCameraCaptureManager *)captureManager;
+- (void) captureManagerDeviceConfigurationChanged:(nonnull PXCameraCaptureManager *)captureManager;
 @end

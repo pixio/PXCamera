@@ -65,6 +65,6 @@ typedef NS_ENUM(NSInteger, PXFlashControlOrientation) {
  *
  *  @return an array of the individual image views
  */
-- (NSArray*) individualViews;
+- (NSArray<UIImageView *>*) individualViews;
 
 @end

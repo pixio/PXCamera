@@ -59,6 +59,6 @@ typedef NS_ENUM(NSInteger, PXSpanPickerOrientation) {
  *
  *  @return an array of the individual labels
  */
-- (nonnull NSArray*) individualViews;
+- (nonnull NSArray<UILabel *> *) individualViews;
 
 @end
