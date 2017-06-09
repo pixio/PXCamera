@@ -37,22 +37,22 @@
  *  The color used for the buttons and titles in the navigation bar. 
  *  The default is @c blackColor.
  */
-@property (nonatomic) UIColor * tintColor;
+@property (nonatomic, nullable) UIColor * tintColor;
 
 /**
  *  The bar color used in the navigation bar. The default color is whiteColor;
  */
-@property (nonatomic) UIColor * barTintColor;
+@property (nonatomic, nullable) UIColor * barTintColor;
 
 /**
  *  Image picker controller that backs the helper.
  */
-@property (nonatomic) UIImagePickerController * imagePickerController;
+@property (nonatomic, nonnull) UIImagePickerController * imagePickerController;
 
 /**
  *  Completion to call with 
  */
-@property (nonatomic, copy) void(^completion)(UIImage*, PXCameraImageSource);
+@property (nonatomic, copy, nullable) void(^completion)(UIImage* _Nullable, PXCameraImageSource);
 
 /**
  *  Generate the singleton.  This allows you to generate the singleton ahead of 
@@ -60,7 +60,7 @@
  *
  *  @return a singleton with no exposed methods
  */
-+ (PXImagePickerHelper*)sharedHelper;
++ (nonnull PXImagePickerHelper*)sharedHelper;
 
 /**
  *  Get an image asynchronously from the camera, library, or web. Calls the completion when an image is picked or picking is canceled.
@@ -68,6 +68,6 @@
  *  @param vc         the view controller with which to present the image
  *  @param completion a block to run with the retrieved image
  */
-+ (void)getImageInViewController:(UIViewController*)vc completion:(void(^)(UIImage*, PXCameraImageSource))completion;
++ (void)getImageInViewController:(nonnull UIViewController*)vc completion:(nullable void(^)(UIImage* _Nullable, PXCameraImageSource))completion;
 
 @end

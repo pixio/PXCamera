@@ -30,6 +30,6 @@
 
 @property (nonatomic) BOOL gridHidden;
 
-- (void)ensureCameraPreviewViewAttached;
+- (void) ensureCameraPreviewViewAttached;
 
 @end

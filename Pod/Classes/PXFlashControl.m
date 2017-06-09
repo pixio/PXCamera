@@ -137,7 +137,7 @@
     [super updateConstraints];
 }
 
-- (void) setValue:(PXFlashType)value
+- (void)setValue:(PXFlashType)value
 {
     _value = value;
     
@@ -151,7 +151,7 @@
     [self collapse];
 }
 
-- (void) collapse
+- (void)collapse
 {
     switch (_value) {
         case PXFlashTypeAuto: {
@@ -193,7 +193,7 @@
     }
 }
 
-- (void) expand
+- (void)expand
 {
     [_autoView setAlpha:1.0f];
     [_onView setAlpha:1.0f];
@@ -205,7 +205,7 @@
     return _value;
 }
 
-- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     if (!_receivingTouches) {
         return;
@@ -232,7 +232,7 @@
     [self sendActionsForControlEvents:UIControlEventTouchUpInside];
 }
 
-- (NSInteger) resolveBinFromPrimaryAxis:(CGPoint)point
+- (NSInteger)resolveBinFromPrimaryAxis:(CGPoint)point
 {
     CGFloat axisCoordinate;
     CGFloat totalAxisLength;

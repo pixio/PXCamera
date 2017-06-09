@@ -255,12 +255,12 @@
     return title;
 }
 
-- (void) setValue:(NSInteger)value
+- (void)setValue:(NSInteger)value
 {
     [self setValue:value animated:FALSE];
 }
 
-- (void) setValue:(NSInteger)value animated:(BOOL)animated
+- (void)setValue:(NSInteger)value animated:(BOOL)animated
 {
     _value = value;
     
@@ -309,7 +309,7 @@
     return _value;
 }
 
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     _oldSelectedIndex = _selectedIndex; // save in case of cancel
     
@@ -317,7 +317,7 @@
     [self touchesMoved:touches withEvent:event];
 }
 
-- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // Follow finger into new touched span, changing value as appropriate
     NSInteger newBin = [self resolveBinFromPrimaryAxis:[[touches anyObject] locationInView:self]];
@@ -331,7 +331,7 @@
     }
 }
 
-- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // send final touch (or only if not coninuous)
     NSInteger newBin = [self resolveBinFromPrimaryAxis:[[touches anyObject] locationInView:self]];
@@ -342,7 +342,7 @@
     [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 
-- (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // reset back to original value and send no event (unless continuous, then reset)
     _selectedIndex = _oldSelectedIndex;
@@ -350,7 +350,7 @@
     [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 
-- (NSInteger) resolveBinFromPrimaryAxis:(CGPoint)point
+- (NSInteger)resolveBinFromPrimaryAxis:(CGPoint)point
 {
     CGFloat axisCoordinate;
     CGFloat totalAxisLength;
@@ -367,7 +367,7 @@
     return (NSInteger)(axisCoordinate / binWidth);
 }
 
-- (NSInteger) valueForBin:(NSInteger)bin
+- (NSInteger)valueForBin:(NSInteger)bin
 {
     switch (bin) {
         case 0:
@@ -412,7 +412,7 @@
     }
 }
 
-- (void) hideAnimated:(BOOL)animated
+- (void)hideAnimated:(BOOL)animated
 {
     _hidden = TRUE;
     
@@ -433,7 +433,7 @@
     }
 }
 
-- (void) showAnimated:(BOOL)animated
+- (void)showAnimated:(BOOL)animated
 {
     _hidden = FALSE;
     [_contentView setAlpha:1.0f];
@@ -452,17 +452,17 @@
     }
 }
 
-- (void) setContentBackgroundColor:(UIColor*)color
+- (void)setContentBackgroundColor:(UIColor*)color
 {
     [_contentView setBackgroundColor:color];
 }
 
-- (UIColor*) contentBackgroundColor
+- (UIColor*)contentBackgroundColor
 {
     return [_contentView backgroundColor];
 }
 
-- (void) hideText
+- (void)hideText
 {
     // hide all the text
     [UIView animateWithDuration:0.1f animations:^{
@@ -476,7 +476,7 @@
     }];
 }
 
-- (void) showText
+- (void)showText
 {
     // show all the text
     [UIView animateWithDuration:0.1f animations:^{
@@ -489,14 +489,5 @@
         [_selectedDot setAlpha:1.0f];
     }];
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end

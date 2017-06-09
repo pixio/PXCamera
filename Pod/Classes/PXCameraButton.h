@@ -28,6 +28,6 @@
 
 @interface PXCameraButton : UIControl
 
-@property (nonatomic) NSString * countDown; // the final
+@property (nonatomic, nullable) NSString * countDown; // the final
 
 @end
